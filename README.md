@@ -8,7 +8,8 @@
 5. Define an array of objects containing all the text and options as well as different game state changes according to the choices selected.
 6. Define a function to find the text to be displayed from the array containing the text and change the text element being displayed with the new one.
 7. Define a loop with a function to check what options are available to be displayed according to the game state.
-8. 
+8. Add an event listener to know where is the player clicking.
+9. Define a function to react according to the option the player choose including a restart function.
 
 
 !(https://whimsical.com/MonPjWTZ2uN97Xn9taTBuY)
