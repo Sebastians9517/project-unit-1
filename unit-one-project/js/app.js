@@ -165,7 +165,7 @@ const textNodes = [
     },
     {
         id: 17,
-        text: "Hellavia: \n 'Your mom has been failing since you were born, rookie. \n -They didn't like that comment at all.",
+        text: "Hellavia: \n 'Your mom has been failing since you were born, rookie.' \n -They didn't like that comment at all.",
         choices: [
             {
                 text: "You still can't speak.",
@@ -175,6 +175,36 @@ const textNodes = [
     },
     {
         id: 18,
+        text: "'Alright, time to throw you off your high horse you little b...' -Before the guy could finish the sentence, Hellavia shot a dark energy bolt at him, launching him backwards several metres, landing on his back. The others quickly surrounded her and attacked with some other kind of spells. She blocked them fairly easy, but a fourth one was coming from the knocked down guy.",
+        choices: [
+            {
+                text: "Try to deflect the attack.",
+                nextText: 19
+            },
+            {
+                text: "Run away.",
+                nextText: 20
+            },
+            {
+                text: "Attempt to help the others.",
+                nextText: 21
+            }
+        ]
+    },
+    {
+        id: 19,
+        text: "You tried to jump between the short strange girl and the energy bolt, but you were too late, Hellavia just made it effortlessly disappear mid-air. However she noticed what you attempted to do. \n Hellavia: \n 'Aww, you wanted to protect me? How cute.' \n -In a mere moment the attackers where all lying unconscious on the ground.",
+        choices: [
+            {
+                text: "You tried to speak but still can't.",
+                nextText: 22
+            }
+        ]
+
+    },
+    {
+        id: 20,
+        
     }
 ]
 
