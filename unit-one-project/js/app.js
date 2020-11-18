@@ -29,6 +29,14 @@ const textNodes = [
             {
                 text: "Read the story of Hellavia, The Sorceress.",
                 nextText: 4
+            },
+            {
+                text: 'Read the story of Nihliana, The Ancient.',
+                nextText: 5
+            },
+            {
+                text: 'Read the story of Shaileen, The Protector.',
+                nextText: 6
             }
         ]
     }
@@ -47,17 +55,18 @@ function gameStart() {
 
 
 function showTextNode(textIndex) {
-    const textNode = textNodes.find(textNode => textNode.id === textIndex)
-        textElement.innerText = textNode.text
+    const textNode = textNodes.find(textNode => textNode.id === textIndex);
+        textElement.innerText = textNode.text;
         while (choiceButtons.firstChild) {
-            choiceButtons.removeChild(choiceButtons.firstChild)
-        }
+            choiceButtons.removeChild(choiceButtons.firstChild);
+        };
         textNode.choices.forEach(choices => {
             if (showOption(choices)) {
-                const button = document.createElement('button')
-                button.innerText = choices.text
-                button.classList = addEventListener('click', () => selectChoice(choices))
-                choiceButtons.appendChild(button)
+                const button = document.createElement('button');
+                button.innerText = choices.text;
+                button.classList.add('button');
+                button.classList = addEventListener('click', () => selectChoice(choices));
+                choiceButtons.appendChild(button);
             }
         })
 
