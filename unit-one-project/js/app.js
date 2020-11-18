@@ -27,7 +27,8 @@ const textNodes = [
         text: "Upon further inspection and a quick flip through the pages you realize that, strangely enough, the book has no author displayed or where it was published, not even a publication date. And to make things even more odd instead of chapters there are depictions of different characters, dozens of them. However almost all of the pages seem to have faded out with time and only three of them remain somewhat legible and brigthly colored. They seem to be short stories and decide to read one out of curiosity.",
         choices: [ // FUNCTION HERE THAT CHANGES THE SCREEN DISPLAYING A CHARACTER SELECTION MENU WHILE DISPLAYING THE NAME AND OPTIONS BELOW //
             {
-                text: "Read the story of Hellavia, The Sorceress"
+                text: "Read the story of Hellavia, The Sorceress.",
+                nextText: 4
             }
         ]
     }
@@ -41,15 +42,36 @@ let gameState = {};
 // Defining functions //
 function gameStart() {
     gameState = {};
-    showTextNode(1)
-}
+    showTextNode(1);
+};
 
 
-function showText(textIndex) {
+function showTextNode(textIndex) {
+    const textNode = textNodes.find(textNode => textNode.id === textIndex)
+        textElement.innerText = textNode.text
+        while (choiceButtons.firstChild) {
+            choiceButtons.removeChild(choiceButtons.firstChild)
+        }
+        textNode.choices.forEach(choices => {
+            if (showOption(choices)) {
+                const button = document.createElement('button')
+                button.innerText = choices.text
+                button.classList = addEventListener('click', () => selectChoice(choices))
+                choiceButtons.appendChild(button)
+            }
+        })
 
+
+};
+
+function showOption(choice) {
+    return true;
 }
 
 
 function selectChoice(choice) {
 
-}
+};
+
+
+gameStart();
