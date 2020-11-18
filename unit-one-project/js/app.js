@@ -46,7 +46,28 @@ const textNodes = [
         text: "You turn the page to the story of Hellavia",
         choices: [
             {
-                text: "Start reading."
+                text: "Start reading.",
+                nextText: 7
+            }
+        ]
+    },
+    {
+        id: 7,
+        text: "Hellavia was finally ready with her spell, magic candles lit on the floor tangential to the summoning circle, oil extracted from an ancient and powerful dragon burning with a purple flame in the middle of the circle. She begins her incantation...",
+        choices: [
+            {
+                text: "While you read you start to feel increasingly dizzy...",
+                nextText: 8
+            }
+        ]
+    },
+    {
+        id: 8,
+        text: "???: \n Ha! I am the best! Uhh, wait, are you alive or dead or... oh, it breaths, cool!",
+        choices: [
+            {
+                text: "Uhg...",
+                nextText: 9
             }
         ]
     }
