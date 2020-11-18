@@ -63,13 +63,78 @@ const textNodes = [
     },
     {
         id: 8,
-        text: "???: \n Ha! I am the best! Uhh, wait, are you alive or dead or... oh, it breaths, cool!",
+        text: "???: \n 'Ha! I am the best! Uhh, wait, are you alive or dead or... -she pokes you slightly with her staff- oh, it breaths, cool!'",
         choices: [
             {
                 text: "Uhg...",
                 nextText: 9
             }
         ]
+    },
+    {
+        id: 9,
+        text: "As you open your eyes a strange character is standing above you. Dark coloured robes, mostly black and purple, a twisted wooden staff in one hand and on the top of it an ashen coloured skull with two small horns protruding from it. You noticed her skin tone is ashen as well, and her eyes are a frightening dark crimson.",
+        choices: [
+            {
+                text: "*Sit up*",
+                nextText: 10
+            }
+        ]
+    },
+    {
+        id: 10,
+        text: "Upon sitting up trying to make sense of what just happened, you also realize the figure above you is rather short. You almost reached her height when standing straight. Suddenly the individual pokes your head again with the staff a few times.",
+        choices: [
+            {
+                text: "*You let out a slight groan*",
+                nextText: 11
+            }
+        ]
+    },
+    {
+        id: 11,
+        text: "???: \n 'Okay good, you are corpo and real, hehe... Can you understand me?'",
+        choices: [
+            {
+                text: "... Yes.",
+                nextText: 12
+            },
+            {
+                text: "Who are you...? Where am I?",
+                nextText: 12
+            },
+            {
+                text: "Do not poke me again.",
+                nextText: 12
+            }
+        ]
+    },
+    {
+        id: 12,
+        text: "???: 'Okay, we do speak the same language' -she ignores whatever you said.- 'Yes, you are the proof I need. Get up, you are coming with me.'",
+        choices: [
+            {
+                text: "Uhh, no. But thank you.",
+                nextText: 13
+            },
+            {
+                text: "What? Go where? What is this place?",
+                nextText: 14
+            }
+        ]
+    },
+    {
+        id: 13,
+        text: "???: \n 'No but thank you? Nu-uh, that won't cut it. I said GET UP! -you immediately feel an imperative need of jump and stand straight- 'Good, I like obedient pets. Now follow me, don't make me command you again.",
+        choices: [
+            {
+                text: "Who are you? What do you want?"
+            }
+        ]
+    },
+    {
+        id: 14,
+        text: "Pick only one question my pet, I hate too many at the same time. It only shows a lack of confidence in one's path. But sure, this is the thing: you are "
     }
 ]
 
