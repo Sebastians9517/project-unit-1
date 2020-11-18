@@ -204,8 +204,25 @@ const textNodes = [
     },
     {
         id: 20,
-        
-    }
+        text: "You sprinted as fast as you could, but not even two minutes later you realised you are lost and have no idea where to go. Suddenly, you forcibly started to walk in a certain direction, only to return to Hellavia. The attackers where all lying unconscious on the ground. \n Hellavia: \n 'Nice try my pet, I can respect those who attempt to fight against their fate.'",
+        nextText: 23
+    },
+    {
+        id: 21,
+        text: "You try to knock the short strange girl down, but you realized you can't move against her, your body simply refuses to. \n Hellavia: \n 'I don't appreciate being stabbed in the back, my pet...' -She looks at you slightly disappointed. Then she quickly waves her staff around and in a mere moment all the attackers fell unconscious to the ground.",
+        nextText: 24
+    },
+    {
+        id: 22,
+        text: "Hellavia: \n 'Now now, you can get to speak when we are at out destination. And, uhm, thanks for trying to protect me... I guess.' -She slightly blushes and looks away.",
+        choices: [
+            {
+                text: "Walk behind her.",
+                nextText: 25
+            }
+        ]
+    },
+    {}
 ]
 
 
