@@ -156,7 +156,25 @@ const textNodes = [
     {
         id: 16,
         text: "As you are walking, you suddenly are greeted by three other individuals, dressed similarly to Hellavia. She notions you to stop, her face clearly annoyed by this encounter. \n \n -'Oh look it’s Hellavia, another failure today I assume?' -one speaks while the others pretend it was a funny comment.",
-        
+        choices: [
+            {
+                text: "...",
+                nextText: 17
+            }
+        ]
+    },
+    {
+        id: 17,
+        text: "Hellavia: \n 'Your mom has been failing since you were born, rookie. \n -They didn't like that comment at all.",
+        choices: [
+            {
+                text: "You still can't speak.",
+                nextText: 18
+            }
+        ]
+    },
+    {
+        id: 18,
     }
 ]
 
