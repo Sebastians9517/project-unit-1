@@ -125,16 +125,38 @@ const textNodes = [
     },
     {
         id: 13,
-        text: "???: \n 'No but thank you? Nu-uh, that won't cut it. I said GET UP! -you immediately feel an imperative need of jump and stand straight- 'Good, I like obedient pets. Now follow me, don't make me command you again.",
+        text: "???: \n 'No but thank you? Nu-uh, that won't cut it. I said _get up_! -you immediately feel an imperative need of jump and stand straight- 'Good, I like obedient pets. Now follow me, don't make me command you again. This is the thing: to the Council of Warlocks you are the proof I need that there are other worlds, maybe even Universes, we can summon creatures from. You are in front of my hut in the middle of the Shadow Forest, the birthplace of magic in this world and where the Council of Warlocks reside. Now, _come with me_.' -You start following her without even wanting to-.",
         choices: [
             {
-                text: "Who are you? What do you want?"
+                text: "Who are you? What do you want?",
+                nextText: 15
             }
         ]
     },
     {
         id: 14,
-        text: "Pick only one question my pet, I hate too many at the same time. It only shows a lack of confidence in one's path. But sure, this is the thing: you are "
+        text: "'Pick only one question my pet, I hate too many at the same time. It only shows a lack of confidence in one's path. But sure, this is the thing: to the Council of Warlocks you are the proof I need that there are other worlds, maybe even Universes, we can summon creatures from. You are in front of my hut in the middle of the Shadow Forest, the birthplace of magic in this world and where the Council of Warlocks reside. Now, _come with me_.' -You start following her without even wanting to-.",
+        choices: [
+            {
+                text: "Who are you? What do you want?",
+                nextText: 15
+            }
+        ]
+    },
+    {
+        id: 15,
+        text: "Hellavia: \n 'I am Hellavia, your local supreme sorceress, at your ser... no, wait, you are at my service. And I already answered the other question. Now _be quiet_ for a while.'",
+        choices: [
+            {
+                text: "You try to speak but no sound comes out of your mouth.",
+                nextText: 16
+            }
+        ]
+    },
+    {
+        id: 16,
+        text: "As you are walking, you suddenly are greeted by three other individuals, dressed similarly to Hellavia. She notions you to stop, her face clearly annoyed by this encounter. \n \n -'Oh look it’s Hellavia, another failure today I assume?' -one speaks while the others pretend it was a funny comment.",
+        
     }
 ]
 
