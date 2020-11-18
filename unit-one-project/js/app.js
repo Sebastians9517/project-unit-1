@@ -24,19 +24,29 @@ const textNodes = [
     },
     {
         id: 3,
-        text: "Upon further inspection and a quick flip through the pages you realize that, strangely enough, the book has no author displayed or where it was published, not even a publication date. And to make things even more odd instead of chapters there are depictions of different characters, dozens of them. However almost all of the pages seem to have faded out with time and only three of them remain somewhat legible and brigthly colored. They seem to be short stories and decide to read one out of curiosity.",
-        choices: [ // FUNCTION HERE THAT CHANGES THE SCREEN DISPLAYING A CHARACTER SELECTION MENU WHILE DISPLAYING THE NAME AND OPTIONS BELOW //
+        text: "Upon further inspection and a quick flip through the pages you realize that, strangely enough, the book has no author displayed or where it was published, not even a publication date. And to make things even more odd almost all of the pages seem to have faded out with time and only three of them remain somewhat legible and brigthly colored. They seem to be short stories and you decide to read one out of curiosity.",
+        choices: [
+            // FUNCTION HERE THAT CHANGES THE SCREEN DISPLAYING A CHARACTER SELECTION MENU WHILE DISPLAYING THE NAME AND A BRIEF DESCRIPTION BELOW, ALONG WITH THE OPTION TO SELECT THE DESIRED CHARACTER //
             {
                 text: "Read the story of Hellavia, The Sorceress.",
                 nextText: 4
             },
             {
-                text: 'Read the story of Nihliana, The Ancient.',
+                text: "Read the legend of Nihliana, The Ancient.",
                 nextText: 5
             },
             {
-                text: 'Read the story of Shaileen, The Protector.',
+                text: "Read the tale of Shaileen, The Protector.",
                 nextText: 6
+            }
+        ]
+    },
+    {
+        id: 4,
+        text: "You turn the page to the story of Hellavia",
+        choices: [
+            {
+                text: "Start reading."
             }
         ]
     }
@@ -67,21 +77,24 @@ function showTextNode(textIndex) {
                 button.classList.add('button');
                 button.classList = addEventListener('click', () => selectChoice(choices));
                 choiceButtons.appendChild(button);
-            }
-        })
+            };
+        });
 
 
 };
 
 function showOption(choice) {
-    return choice.requiredState == null || choice.requiredState(gameState)
+    return choice.requiredState == null || choice.requiredState(gameState);
 };
 
 
 function selectChoice(choice) {
-    const nextTextNodeId = choice.nextText
-    gameState = Object.assign(gameState, choice.setgameState)
-    showTextNode(nextTextNodeId)
+    const nextTextNodeId = choice.nextText;
+    if (nextTextNodeId <= 0) {
+        return gameStart();
+    };
+    gameState = Object.assign(gameState, choice.setgameState);
+    showTextNode(nextTextNodeId);
 };
 
 
