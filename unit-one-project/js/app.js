@@ -74,12 +74,14 @@ function showTextNode(textIndex) {
 };
 
 function showOption(choice) {
-    return true;
-}
+    return choice.requiredState == null || choice.requiredState(gameState)
+};
 
 
 function selectChoice(choice) {
-
+    const nextTextNodeId = choice.nextText
+    gameState = Object.assign(gameState, choice.setgameState)
+    showTextNode(nextTextNodeId)
 };
 
 
