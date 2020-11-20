@@ -46,7 +46,7 @@ const textNodes =  [
     },
     {
         id: 4,
-        text: "You turn the page to the story of Hellavia",
+        text: "You turn the page to the story of Hellavia.",
         choices: [
             {
                 text: "Start reading.",
@@ -138,7 +138,7 @@ const textNodes =  [
     },
     {
         id: 13,
-        text: "???: \n 'No but thank you? Nu-uh, that won't cut it. I said _get up_! \n -you immediately feel an imperative need of jump and stand straight- \n 'Good, I like obedient pets. Now follow me, don't make me command you again. This is the thing: to the Council of Warlocks you are the proof I need that there are other worlds, maybe even Universes, we can summon creatures from. You are in front of my hut in the middle of the Shadow Forest, the birthplace of magic in this world and where the Council of Warlocks reside. Now, _come with me_.' \n -You start following her without even wanting to-.",
+        text: "???: \n 'No but thank you? Nu-uh, that won't cut it. I said *get up*! \n -you immediately feel an imperative need of jump and stand straight- \n 'Good, I like obedient pets. Now follow me, don't make me command you again. This is the thing: to the Council of Warlocks you are the proof I need that there are other worlds, maybe even Universes, we can summon creatures from. You are in front of my hut in the middle of the Shadow Forest, the birthplace of magic in this world and where the Council of Warlocks reside. Now, *come with me*.' \n -You start following her without even wanting to-.",
         choices: [
             {
                 text: "Who are you? What do you want?",
@@ -149,7 +149,7 @@ const textNodes =  [
     },
     {
         id: 14,
-        text: "'Pick only one question my pet, I hate too many at the same time. It only shows a lack of confidence in one's path. But sure, this is the thing: to the Council of Warlocks you are the proof I need that there are other worlds, maybe even Universes, we can summon creatures from. You are in front of my hut in the middle of the Shadow Forest, the birthplace of magic in this world and where the Council of Warlocks reside. Now, _come with me_.' -You start following her without even wanting to.",
+        text: "'Pick only one question my pet, I hate too many at the same time. It only shows a lack of confidence in one's path. But sure, this is the thing: to the Council of Warlocks you are the proof I need that there are other worlds, maybe even Universes, we can summon creatures from. You are in front of my hut in the middle of the Shadow Forest, the birthplace of magic in this world and where the Council of Warlocks reside. Now, *come with me*.' \n -You start following her without even wanting to.",
         choices: [
             {
                 text: "Who are you? What do you want?",
@@ -160,7 +160,7 @@ const textNodes =  [
     },
     {
         id: 15,
-        text: "Hellavia: \n 'I am Hellavia, your local supreme sorceress, at your ser... no, wait, you are at my service. And I already answered the other question. Now _be quiet_ for a while.'",
+        text: "Hellavia: \n 'I am Hellavia, your local supreme sorceress, at your ser... no, wait, you are at my service. And I already answered the other question. Now *be quiet* for a while.'",
         choices: [
             {
                 text: "You try to speak but no sound comes out of your mouth.",
@@ -171,7 +171,7 @@ const textNodes =  [
     },
     {
         id: 16,
-        text: "As you are walking, you suddenly are greeted by three other individuals, dressed similarly to Hellavia. She notions you to stop, her face clearly annoyed by this encounter. \n \n -'Oh look it’s Hellavia, another failure today I assume?' -one speaks while the others pretend it was a funny comment.",
+        text: "As you are walking, you suddenly are greeted by three other individuals, dressed similarly to Hellavia. She notions you to stop, her face clearly annoyed by this encounter. \n \n -'Oh look it’s Hellavia, another failure today I assume?' \n -one speaks while the others pretend it was a funny comment.",
         choices: [
             {
                 text: "...",
@@ -231,12 +231,12 @@ const textNodes =  [
     },
     {
         id: 21,
-        text: "You try to knock the short strange girl down, but you realized you can't move against her, your body simply refuses to. \n Hellavia: \n 'I don't appreciate being stabbed in the back, my pet...' -She looks at you slightly disappointed. Then she quickly waves her staff around and in a mere moment all the attackers fell unconscious to the ground.",
+        text: "You try to knock the short strange girl down, but you realized you can't move against her, your body simply refuses to. \n Hellavia: \n 'I don't appreciate being stabbed in the back, my pet...' \n -She looks at you slightly disappointed. Then she quickly waves her staff around and in a mere moment all the attackers fell unconscious to the ground.",
         nextText: 24
     },
     {
         id: 22,
-        text: "Hellavia: \n 'Now now, you can get to speak when we are at out destination. And, uhm, thanks for trying to protect me... I guess.' -She slightly blushes and looks away.",
+        text: "Hellavia: \n 'Now now, you can get to speak when we are at out destination. And, uhm, thanks for trying to protect me... I guess.' \n -She slightly blushes and looks away.",
         choices: [
             {
                 text: "Walk behind her.",
@@ -280,7 +280,7 @@ const textNodes =  [
     },
     {
         id: 26,
-        text: "Hellavia: \n 'Fair sirs and ladies of the Council, after all this years of mocking me and calling me crazy, I present you proof of my theories!' \n -'Not so fast, young one, this could be anyone from outside our forest.' -one spoke",
+        text: "Hellavia: \n 'Fair sirs and ladies of the Council, after all this years of mocking me and calling me crazy, I present you proof of my theories!' \n -'Not so fast, young one, this could be anyone from outside our forest.' \n -one spoke",
         choices: [
             {
                 text: "Continue Listening",
@@ -337,7 +337,7 @@ const textNodes =  [
     },
     {
         id: 30,
-        text: "Warlock Councilmen: \n 'I see... It does sound strange, yet your clothes, your lack of mana… What realm are you from?' -another warlock asks.",
+        text: "Warlock Councilmen: \n 'I see... It does sound strange, yet your clothes, your lack of mana… What realm are you from?' \n -another warlock asks.",
         choices: [
             {
                 text: "You refuse, you want to protect your world.",
@@ -348,7 +348,7 @@ const textNodes =  [
     },
     {
         id: 31,
-        text: "Warlock Councilmen: \n 'Hmm, memory loss wouldn’t be anything new for those with little to no magic. If I may, my friend... -another one speaks up- What kingdom are you from?'",
+        text: "Warlock Councilmen: \n 'Hmm, memory loss wouldn’t be anything new for those with little to no magic. If I may, my friend... \n -another one speaks up- \n 'What kingdom are you from?'",
         choices: [
             {
                 text: "You tell them about your homeworld.",
@@ -359,7 +359,7 @@ const textNodes =  [
     },
     {
         id: 32,
-        text: "Warlock Councilmen: \n 'Wouldn’t put it past our headstrong daughter here, but we are mostly certain you are not from this world. So if you have at least some decency, tell us where were are you from. -Hellavia did not like that reply of yours. ",
+        text: "Warlock Councilmen: \n 'Wouldn’t put it past our headstrong daughter here, but we are mostly certain you are not from this world. So if you have at least some decency, tell us where were are you from.' \n -Hellavia did not like that reply of yours. ",
         choices: [
             {
                 text: "You say you were raised by elves on another country.",
@@ -370,7 +370,7 @@ const textNodes =  [
     },
     {
         id: 33,
-        text: "Warlock Councilmen: \n 'Loyal to the end, how noble.' -another warlock speaks. Hellavia smiled a little. -'Rare indeed in this times, with all the kingdoms crumbling.'",
+        text: "Warlock Councilmen: \n 'Loyal to the end, how noble.' \n -another warlock speaks. Hellavia smiled a little. \n -'Rare indeed in this times, when all the kingdoms are crumbling.'",
         choices: [
             {
                 text: "You smile",
@@ -380,7 +380,7 @@ const textNodes =  [
     },
     {
         id: 34,
-        text: "Warlock Councilmen: \n 'A planet with billions of people and hundreds of countries? How curious... -One of them reacted. Hellavia’s interest was also piqued.'",
+        text: "Warlock Councilmen: \n 'A planet with billions of people and hundreds of countries? How curious...' \n -One of them reacted. Hellavia’s interest was also piqued.'",
         choices: [
             {
                 text: "You nod",
@@ -390,7 +390,7 @@ const textNodes =  [
     },
     {
         id: 35,
-        text: "Warlock Councilmen: \n 'A bad attempt at lying, human. No elf here would raise a human.' -Hellavia made some angry noises.",
+        text: "Warlock Councilmen: \n 'A bad attempt at lying, human. No elf here would raise a human.' \n -Hellavia made some angry noises.",
         choices: [
             {
                 text: "Ehe",
@@ -430,7 +430,7 @@ const textNodes =  [
     },
     {
         id: 38,
-        text: "Hellavia: \n 'I get it I get it, you are afraid we will cook you or something? Stupid local gosspis, well, mostly... -she sighs- You will likely be set free, or resummoned to your world. There is also the unlikely chance that you end up being blasted away with magic but...",
+        text: "Hellavia: \n 'I get it I get it, you are afraid we will cook you or something? Stupid local gosspis, well, mostly...' \n -she sighs- \n 'You will likely be set free, or resummoned to your world. There is also the unlikely chance that you end up being blasted away with magic but...",
         choices: [
             {
                 text: "Before you could reply you were interrupted",
@@ -494,7 +494,7 @@ const textNodes =  [
         choices: [
             {
                 text: "I have a bad feeling about this.",
-                nextText: null // SOMETHING HERE TO TAKE YOU TO THE RIGHT NODE ID (45, 46, 47) ACCORDING TO THE PREVIOUS CHOICES //
+                nextText: null // SOMETHING HERE TO TAKE YOU TO THE RIGHT NODE ID (45, 48, 51) ACCORDING TO THE PREVIOUS CHOICES //
             }
         ]
     },
@@ -504,55 +504,45 @@ const textNodes =  [
         choices: [
             {
                 text: "Stay here. You don't want to go back anyway.",
-                nextText: 47
+                nextText: 46
             },
             {
                 text: "Tell her you want to go home.",
-                nextText: 48
+                nextText: 47
             }
         ]
     },
-    { // You got somewhere halfway between helping/hindering
-        id: 46,
-        text: "Hellavia: \n 'You’re not a bad guy, not my type, but not bad. If you want to stay, you’re welcome to do so, I can help you get to know this world, but if not, I’ll return you to your home, don’t mind either way.' \n -She gives you a pat on the head, barely reaching it.",
-        choices: [
-            {
-                text: "Stay for a few days at least.",
-                nextText: 
-            }
-        ]
-    }
     {
         id: 46,
-        text: "Hellavia: \n 'You’re not a bad guy, not my type, but not bad. If you want to stay, you’re welcome to, I can help you get to know this world, but if not, I’ll return you to your home, don’t mind either way.'",
+        text: "Hellavia: \n 'Good choice my pet... uhhh, I mean partner now, I guess?' \n -She clearly was very happy with the answer.- \n 'Alright, let’s celebrate surviving oufirst date! We can start conquering the world tomorrow though, right?'",
         choices: [
             {
-                text: "Stay for a while at least.",
-                nextText: 49
-            },
-            {
-                text: "Tell her you want to go home.",
-                nextText: 50
+                text: "You chuckle, this isn't so bad after all...",
+                nextText: 55
             }
         ]
     },
     {
         id: 47,
-        text: "Hellavia: \n 'Good choice my pet... uhhh, I mean partner now, I guess?' \n -She clearly was very happy with the answer.- \n 'Alright, let’s celebrate surviving our first date! We can start conquering the world tomorrow though, right?'",
-        choices: [
-            {
-                text: "You chuckle, this isn't so bad after all...",
-                nextText: 51
-            }
-        ]
-    },
-    {
-        id: 48,
         text: "Hellavia: \n 'Oh I... I guess I understand.' \n -she was saddened by the answer clearly, but tried to fake a smile- \n 'Okay then, but would you at least stay for a day..? You might even change your mind!'",
         choices: [
             {
                 text: "You nod, not everyday you get summoned into another world",
-                nextText: 51
+                nextText: 55
+            }
+        ]
+    },
+    { // You got somewhere halfway between helping/hindering
+        id: 48,
+        text: "Hellavia: \n 'You’re not a bad guy, not my type, but not bad. If you want to stay, you’re welcome to do so, I can help you get to know this world, but if not, I’ll return you to your home, don’t mind either way.' \n -She gives you a pat on the head, barely reaching it.",
+        choices: [
+            {
+                text: "Stay for a few days at least.",
+                nextText: 49
+            },
+            {
+                text: "Say you want to go home.",
+                nextText: 50
             }
         ]
     },
@@ -562,13 +552,54 @@ const textNodes =  [
         choices: [
             {
                 text: "Yes, a drink sounds like a great idea",
-                nextText: 51
+                nextText: 54
             }
         ]
     },
     {
         id: 50,
-        text: "Hellavia: "
+        text: "Hellavia: \n 'Yeah, I figured, fine by me” \n -she gave you a pat on the shoulder.- \n Let’s at least have you try one of our drinks, bet you never had a magically enchanted cocktail! You nod, just one drink, can’t hurt can it...?'",
+        choices: [
+            {
+                text: "Yes, a drink sounds like a great idea",
+                nextText: 54
+            }
+        ]
+    },
+    {
+        id: 51,
+        text: "Hellavia: \n 'Look, I don’t blame you for trying to get away from me, it was unfair of how I treated you, but trying to constantly sabotage me was too much. I’ll send you back, like it or not, we just gotta make it back to my summoning circle. Let’s go…'",
+        choices: [
+            {
+                text: "You agree.",
+                nextText: 52
+            }
+        ]
+    },
+    {
+        id: 52,
+        text: "Hellavia: \n 'Maybe I treated you too harshly, if I did, I am sorry, you did what you had to to try and save your skin, if my opinion matters anything.' \n -The walk back was quiet and awkward, while she was happy to become a summoner, clearly she felt a bit sad. You arrive in front of her hut, where the summoning circle was, and she notions you to stand in the middle.'",
+        choices: [
+            {
+                text: "Walk into the circle.",
+                nextText: 53
+            }
+        ]
+    },
+    {
+        id: 53,
+        text: "Hellavia: 'Well, goodbye, thanks for uh, being summoned here I guess?' \n -You pass out, only to wake up in the library, holding the book.",
+        choices: [
+            {
+                text: "Well, that was awkward.",
+                nextText: 54
+            }
+        ]
+    },
+    {
+        id: 54,
+        text: "The End.",
+        nextText: -1.
     }
 
 
