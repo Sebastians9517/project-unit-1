@@ -6,7 +6,7 @@ const textNodes =  [
         choices: [
             {
                 text: "Continue looking around.",
-                interest: +2,
+                interest: +0,
                 nextText: 2
             }
         ]
@@ -17,7 +17,7 @@ const textNodes =  [
         choices: [
             {
                 text: "Have a peek in the book.",
-                interest: -1,
+                interest: +0,
                 nextText: 3
             }
         ]
@@ -29,17 +29,19 @@ const textNodes =  [
             // FUNCTION HERE THAT CHANGES THE SCREEN DISPLAYING A CHARACTER SELECTION MENU WHILE DISPLAYING THE NAME AND A BRIEF DESCRIPTION BELOW, ALONG WITH THE OPTION TO SELECT THE DESIRED CHARACTER //
             {
                 text: "Read the story of Hellavia, The Sorceress.",
-                interest: +2,
+                interest: +0,
                 nextText: 4
             },
-            {
-                text: "Read the legend of Nihliana, The Ancient.",
-                nextText: 5
-            },
-            {
-                text: "Read the tale of Shaileen, The Protector.",
-                nextText: 6
-            }
+        //     {
+        //         text: "Read the legend of Nihliana, The Ancient.",
+        //         interest: 0,
+        //         nextText: 5
+        //     },
+        //     {
+        //         text: "Read the tale of Shaileen, The Protector.",
+        //         interest: 0,
+        //         nextText: 6
+        //     }
         ]
     },
     {
@@ -48,6 +50,7 @@ const textNodes =  [
         choices: [
             {
                 text: "Start reading.",
+                interest: +0,
                 nextText: 7
             }
         ]
@@ -58,6 +61,7 @@ const textNodes =  [
         choices: [
             {
                 text: "While you read you start to feel increasingly dizzy...",
+                interest: +0,
                 nextText: 8
             }
         ]
@@ -68,6 +72,7 @@ const textNodes =  [
         choices: [
             {
                 text: "Uhg...",
+                interest: +0,
                 nextText: 9
             }
         ]
@@ -78,6 +83,7 @@ const textNodes =  [
         choices: [
             {
                 text: "*Sit up*",
+                interest: +0,
                 nextText: 10
             }
         ]
@@ -88,6 +94,7 @@ const textNodes =  [
         choices: [
             {
                 text: "*You let out a slight groan*",
+                interest: +0,
                 nextText: 11
             }
         ]
@@ -98,21 +105,24 @@ const textNodes =  [
         choices: [
             {
                 text: "... Yes.",
+                interest: +0,
                 nextText: 12
             },
             {
                 text: "Who are you...? Where am I?",
+                interest: +0,
                 nextText: 12
             },
             {
                 text: "Do not poke me again.",
+                interest: +0,
                 nextText: 12
             }
         ]
     },
     {
         id: 12,
-        text: "???: 'Okay, we do speak the same language' -she ignores whatever you said.- 'Yes, you are the proof I need. Get up, you are coming with me.'",
+        text: "???: \n 'Okay, we do speak the same language' \n -she ignores whatever you said.- \n 'Yes, you are the proof I need. Get up, you are coming with me.'",
         choices: [
             {
                 text: "Uhh, no. But thank you.",
@@ -128,10 +138,11 @@ const textNodes =  [
     },
     {
         id: 13,
-        text: "???: \n 'No but thank you? Nu-uh, that won't cut it. I said _get up_! -you immediately feel an imperative need of jump and stand straight- 'Good, I like obedient pets. Now follow me, don't make me command you again. This is the thing: to the Council of Warlocks you are the proof I need that there are other worlds, maybe even Universes, we can summon creatures from. You are in front of my hut in the middle of the Shadow Forest, the birthplace of magic in this world and where the Council of Warlocks reside. Now, _come with me_.' -You start following her without even wanting to-.",
+        text: "???: \n 'No but thank you? Nu-uh, that won't cut it. I said _get up_! \n -you immediately feel an imperative need of jump and stand straight- \n 'Good, I like obedient pets. Now follow me, don't make me command you again. This is the thing: to the Council of Warlocks you are the proof I need that there are other worlds, maybe even Universes, we can summon creatures from. You are in front of my hut in the middle of the Shadow Forest, the birthplace of magic in this world and where the Council of Warlocks reside. Now, _come with me_.' \n -You start following her without even wanting to-.",
         choices: [
             {
                 text: "Who are you? What do you want?",
+                interest: +0,
                 nextText: 15
             }
         ]
@@ -142,6 +153,7 @@ const textNodes =  [
         choices: [
             {
                 text: "Who are you? What do you want?",
+                interest: +0,
                 nextText: 15
             }
         ]
@@ -152,6 +164,7 @@ const textNodes =  [
         choices: [
             {
                 text: "You try to speak but no sound comes out of your mouth.",
+                interest: +0,
                 nextText: 16
             }
         ]
@@ -162,6 +175,7 @@ const textNodes =  [
         choices: [
             {
                 text: "...",
+                interest: +0,
                 nextText: 17
             }
         ]
@@ -172,6 +186,7 @@ const textNodes =  [
         choices: [
             {
                 text: "You still can't speak.",
+                interest: +0,
                 nextText: 18
             }
         ]
@@ -203,6 +218,7 @@ const textNodes =  [
         choices: [
             {
                 text: "You tried to speak but still can't.",
+                interest: +0,
                 nextText: 22
             }
         ]
@@ -224,6 +240,7 @@ const textNodes =  [
         choices: [
             {
                 text: "Walk behind her.",
+                interest: +0,
                 nextText: 25
             }
         ]
@@ -234,6 +251,7 @@ const textNodes =  [
         choices: [
             {
                 text: "Walk behind her.",
+                interest: +0,
                 nextText: 25
             }
         ]
@@ -244,6 +262,7 @@ const textNodes =  [
         choices: [
             {
                 text: "Walk behind her.",
+                interest: +0,
                 nextText: 25
             }
         ]
@@ -254,6 +273,7 @@ const textNodes =  [
         choices: [
             {
                 text: "*whisper to yourself: this is kind of creepy*",
+                interest: +0,
                 nextText: 26
             }
         ]
@@ -474,53 +494,117 @@ const textNodes =  [
         choices: [
             {
                 text: "I have a bad feeling about this.",
-                nextText: null // SOMETHING HERE TO TAKE YOU TO THE RIGHT NODE ID ACCORDING TO THE PREVIOUS CHOICES //
+                nextText: null // SOMETHING HERE TO TAKE YOU TO THE RIGHT NODE ID (45, 46, 47) ACCORDING TO THE PREVIOUS CHOICES //
             }
         ]
     },
     { //If helped her with her goal almost all the time
         id: 45,
-        text: "Hellavia: \n 'Thanks...companion. You could have tried to screw me over but didn’t, so, I’ll leave it to you if you want to stay or leave, I’d like the former, but your choice.' -She leans in a gives you kiss on the cheek, she is definitely blushing."
+        text: "Hellavia: \n 'Thanks...companion. You could have tried to screw me over but didn’t, so, I’ll leave it to you if you want to stay or leave, I’d like the former, but your choice.' -She leans in a gives you kiss on the cheek, she is definitely blushing.",
+        choices: [
+            {
+                text: "Stay here. You don't want to go back anyway.",
+                nextText: 47
+            },
+            {
+                text: "Tell her you want to go home.",
+                nextText: 48
+            }
+        ]
     },
+    { // You got somewhere halfway between helping/hindering
+        id: 46,
+        text: "Hellavia: \n 'You’re not a bad guy, not my type, but not bad. If you want to stay, you’re welcome to do so, I can help you get to know this world, but if not, I’ll return you to your home, don’t mind either way.' \n -She gives you a pat on the head, barely reaching it.",
+        choices: [
+            {
+                text: "Stay for a few days at least.",
+                nextText: 
+            }
+        ]
+    }
     {
         id: 46,
-        text: "Hellavia: \n 'You’re not a bad guy, not my type, but not bad. If you want to stay, you’re welcome to, I can help you get to know this world, but if not, I’ll return you to your home, don’t mind either way.'"
-    },
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    {
-        id: 5,
-        text: "As you begin reading, you are sucked into the book, speeding through a dark vortex. After you regain consciousness after who knows how long, you finally open your eyes only to see a young woman crouching in front of you, her face quite closer to yours, she is staring at you quite curiously. You jump out of fright."
-
+        text: "Hellavia: \n 'You’re not a bad guy, not my type, but not bad. If you want to stay, you’re welcome to, I can help you get to know this world, but if not, I’ll return you to your home, don’t mind either way.'",
+        choices: [
+            {
+                text: "Stay for a while at least.",
+                nextText: 49
+            },
+            {
+                text: "Tell her you want to go home.",
+                nextText: 50
+            }
+        ]
     },
     {
-        id: 6,
-        text: "One moment you are reading the first line of the page, and the next you ear something loudly whistling by right next to your ear. You turn around, only to see an arrow stuck in a tree, right behind you, it only missed you for a few centimeters. Unsure what to think, and really confused as to what just happened, you look around, and see a small creature running away, laughing hysterically."
+        id: 47,
+        text: "Hellavia: \n 'Good choice my pet... uhhh, I mean partner now, I guess?' \n -She clearly was very happy with the answer.- \n 'Alright, let’s celebrate surviving our first date! We can start conquering the world tomorrow though, right?'",
+        choices: [
+            {
+                text: "You chuckle, this isn't so bad after all...",
+                nextText: 51
+            }
+        ]
+    },
+    {
+        id: 48,
+        text: "Hellavia: \n 'Oh I... I guess I understand.' \n -she was saddened by the answer clearly, but tried to fake a smile- \n 'Okay then, but would you at least stay for a day..? You might even change your mind!'",
+        choices: [
+            {
+                text: "You nod, not everyday you get summoned into another world",
+                nextText: 51
+            }
+        ]
+    },
+    {
+        id: 49,
+        text: "Hellavia: \n 'I can go with that, my new friend from another world' \n -She responded with a pat on your back- \n 'Alright, we celebrate our new friendship today, then I can show you some cool stuff tomorrow, sounds good? Good, let’s go, I want a drink! A celebration drink!'",
+        choices: [
+            {
+                text: "Yes, a drink sounds like a great idea",
+                nextText: 51
+            }
+        ]
+    },
+    {
+        id: 50,
+        text: "Hellavia: "
     }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    // {
+    //     id: 5,
+    //     text: "As you begin reading, you are sucked into the book, speeding through a dark vortex. After you regain consciousness after who knows how long, you finally open your eyes only to see a young woman crouching in front of you, her face quite closer to yours, she is staring at you quite curiously. You jump out of fright."
+
+    // },
+    // {
+    //     id: 6,
+    //     text: "One moment you are reading the first line of the page, and the next you ear something loudly whistling by right next to your ear. You turn around, only to see an arrow stuck in a tree, right behind you, it only missed you for a few centimeters. Unsure what to think, and really confused as to what just happened, you look around, and see a small creature running away, laughing hysterically."
+    // }
 
 ]

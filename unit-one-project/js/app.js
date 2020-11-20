@@ -53,7 +53,7 @@ function selectChoice(choices) {
     if (nextTextNodeId <= 0) {
         return start();
     };
-    state = Object.assign(state, choices.setState);
+    state = Object.assign(state, choices.interest);
     showTextNode(nextTextNodeId);
 };
 
