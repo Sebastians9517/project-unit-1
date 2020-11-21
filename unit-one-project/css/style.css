@@ -8,19 +8,29 @@ body {
     margin: 0;
     padding: 0;
     justify-content: center;
-    align-items: center;
+    align-items: flex-end;
     width: 100vw;
     height: 100vh;
     background-color: cornflowerblue;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    -webkit-transition: background-image 0.2s ease-in-out;
+    transition: background-image 0.2s ease-in-out;
+    /* background-image: url(https://coolwallpapers.me/picsup/416886-landscape-wallpaper-free-desktop-wallpapers.gif); */
 }
 
 .container {
-    background-color: darkorange;
-    width: 800px;
+    background-image: url(https://www.pngjoy.com/pngl/49/1107984_dialogue-box-rpg-dialogue-box-png-transparent-png.png);
+    background-color: rgb(112, 65, 8);
+    opacity: 0.7;
+    width: 1000px;
     max-width: 80%;
     padding: 10px;
     border-radius: 10px;
     box-shadow: 0 0 0 10px 2px;
+    margin: 0 0 100px 0;
 }
 
 .buttons-menu {
@@ -32,15 +42,51 @@ body {
 }
 
 .button {
+    /* background-image: url(https://i.imgur.com/Wrudj45.png); */
     background-color: rgb(89, 165, 212);
     border: 1px solid blue;
     border-radius: 4px;
     padding: 5px 10px;
     color: rgb(43, 10, 10);
+    /* position: relative;
+    z-index: -10; */
     /* outline: none; */
 }
 
 .button:hover {
     border-color: turquoise;
 
+}
+
+#story-text {
+    /* width: 100ch; */
+    /* animation: typing 1.5s steps(30), blink .5s step-end infinite alternate; */
+    /* border-right: 3px solid; */
+    /* font-size: 2em; */
+    opacity: 1;
+    white-space: wrap;
+    overflow: hidden;
+    font-family: 'Berkshire Swash', cursive;
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+}
+
+@keyframes typing {
+from {
+  width: 0
+}
+}
+
+#hellavia1 {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background-image: url(https://i.imgur.com/xUZ8qt3.png);
+    position: relative;
+    z-index: -10;
+    /* height: 850px;
+     width: 100px; */
+     /* overflow: hidden; */
+    /* height: 100px; */
+    /* width: 100px; */
 }

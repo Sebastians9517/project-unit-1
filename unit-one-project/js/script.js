@@ -1,12 +1,25 @@
+// let hVoice1 = new Audio('https://soundcloud.com/sebastian-guzman-152985853/ha-i-am-the-best');
 
 const textNodes =  [
+    {
+        id: 0, //Prologue
+        text: "Being a programmer with a reading addiction sometimes can be troublesome.",
+        choices: [
+            {
+                text: "Start.",
+                interest: 0,
+                nextText: 1,
+                // audio: hVoice1.play('https://soundcloud.com/sebastian-guzman-152985853/ha-i-am-the-best')
+            }
+        ],
+    },
     {
         id: 1,
         text: "You are scavenging through the freshly arrived collection of materials at your local bookstore. The place is closing soon, so you quickly pick up your favourites, plus a few new ones.",
         choices: [
             {
                 text: "Continue looking around.",
-                interest: +0,
+                interest: 0,
                 nextText: 2
             }
         ]
@@ -17,7 +30,7 @@ const textNodes =  [
         choices: [
             {
                 text: "Have a peek in the book.",
-                interest: +0,
+                interest: 0,
                 nextText: 3
             }
         ]
@@ -29,7 +42,7 @@ const textNodes =  [
             // FUNCTION HERE THAT CHANGES THE SCREEN DISPLAYING A CHARACTER SELECTION MENU WHILE DISPLAYING THE NAME AND A BRIEF DESCRIPTION BELOW, ALONG WITH THE OPTION TO SELECT THE DESIRED CHARACTER //
             {
                 text: "Read the story of Hellavia, The Sorceress.",
-                interest: +0,
+                interest: 0,
                 nextText: 4
             },
         //     {
@@ -50,7 +63,7 @@ const textNodes =  [
         choices: [
             {
                 text: "Start reading.",
-                interest: +0,
+                interest: 0,
                 nextText: 7
             }
         ]
@@ -61,7 +74,7 @@ const textNodes =  [
         choices: [
             {
                 text: "While you read you start to feel increasingly dizzy...",
-                interest: +0,
+                interest: 0,
                 nextText: 8
             }
         ]
@@ -72,7 +85,7 @@ const textNodes =  [
         choices: [
             {
                 text: "Uhg...",
-                interest: +0,
+                interest: 0,
                 nextText: 9
             }
         ]
@@ -83,7 +96,7 @@ const textNodes =  [
         choices: [
             {
                 text: "*Sit up*",
-                interest: +0,
+                interest: 0,
                 nextText: 10
             }
         ]
@@ -94,7 +107,7 @@ const textNodes =  [
         choices: [
             {
                 text: "*You let out a slight groan*",
-                interest: +0,
+                interest: 0,
                 nextText: 11
             }
         ]
@@ -105,17 +118,17 @@ const textNodes =  [
         choices: [
             {
                 text: "... Yes.",
-                interest: +0,
+                interest: 0,
                 nextText: 12
             },
             {
                 text: "Who are you...? Where am I?",
-                interest: +0,
+                interest: 0,
                 nextText: 12
             },
             {
                 text: "Do not poke me again.",
-                interest: +0,
+                interest: 0,
                 nextText: 12
             }
         ]
@@ -126,12 +139,12 @@ const textNodes =  [
         choices: [
             {
                 text: "Uhh, no. But thank you.",
-                interest: +2,
+                interest: 2,
                 nextText: 13
             },
             {
                 text: "What? Go where? What is this place?",
-                interest: +1,
+                interest: 1,
                 nextText: 14
             }
         ]
@@ -142,7 +155,7 @@ const textNodes =  [
         choices: [
             {
                 text: "Who are you? What do you want?",
-                interest: +0,
+                interest: 0,
                 nextText: 15
             }
         ]
@@ -153,7 +166,7 @@ const textNodes =  [
         choices: [
             {
                 text: "Who are you? What do you want?",
-                interest: +0,
+                interest: 0,
                 nextText: 15
             }
         ]
@@ -164,7 +177,7 @@ const textNodes =  [
         choices: [
             {
                 text: "You try to speak but no sound comes out of your mouth.",
-                interest: +0,
+                interest: 0,
                 nextText: 16
             }
         ]
@@ -175,7 +188,7 @@ const textNodes =  [
         choices: [
             {
                 text: "...",
-                interest: +0,
+                interest: 0,
                 nextText: 17
             }
         ]
@@ -186,7 +199,7 @@ const textNodes =  [
         choices: [
             {
                 text: "You still can't speak.",
-                interest: +0,
+                interest: 0,
                 nextText: 18
             }
         ]
@@ -197,12 +210,12 @@ const textNodes =  [
         choices: [
             {
                 text: "Try to deflect the attack.",
-                interest: +3,
+                interest: 3,
                 nextText: 19
             },
             {
                 text: "Run away.",
-                interest: +2,
+                interest: 2,
                 nextText: 20
             },
             {
@@ -218,7 +231,7 @@ const textNodes =  [
         choices: [
             {
                 text: "You tried to speak but still can't.",
-                interest: +0,
+                interest: 0,
                 nextText: 22
             }
         ]
@@ -227,12 +240,24 @@ const textNodes =  [
     {
         id: 20,
         text: "You sprinted as fast as you could, but not even two minutes later you realised you are lost and have no idea where to go. Suddenly, you forcibly started to walk in a certain direction, only to return to Hellavia. The attackers where all lying unconscious on the ground. \n Hellavia: \n 'Nice try my pet, I can respect those who attempt to fight against their fate.'",
-        nextText: 23
+        choices: [
+            {
+                text: "Tsch, so close.",
+                interest: 0,
+                nextText: 23
+            }
+        ]
     },
     {
         id: 21,
         text: "You try to knock the short strange girl down, but you realized you can't move against her, your body simply refuses to. \n Hellavia: \n 'I don't appreciate being stabbed in the back, my pet...' \n -She looks at you slightly disappointed. Then she quickly waves her staff around and in a mere moment all the attackers fell unconscious to the ground.",
-        nextText: 24
+        choices: [
+            {
+                text: "Tsch, so close.",
+                interest: 0,
+                nextText: 24
+            }
+        ]
     },
     {
         id: 22,
@@ -240,7 +265,7 @@ const textNodes =  [
         choices: [
             {
                 text: "Walk behind her.",
-                interest: +0,
+                interest: 0,
                 nextText: 25
             }
         ]
@@ -251,7 +276,7 @@ const textNodes =  [
         choices: [
             {
                 text: "Walk behind her.",
-                interest: +0,
+                interest: 0,
                 nextText: 25
             }
         ]
@@ -262,18 +287,18 @@ const textNodes =  [
         choices: [
             {
                 text: "Walk behind her.",
-                interest: +0,
+                interest: 0,
                 nextText: 25
             }
         ]
     },
     {
         id: 25,
-        text: "You finally reached a cave where other rageddy, creepy human warlocks where doing their own things. They seemed to be surprised upon seeing you and Hellavia, but did nothing other than scrutinizing you with their gaze upon entering their field of view. Upon walking a little longer and crossing a pair of enormous doors, the two of you reached a grand amphitheater where old shadowy men formed a circle in high stone chairs. Candles and darkness decorated the whole place.",
+        text: "You finally reached a cave where other rageddy, creepy looking human warlocks where doing their own things. They seemed to be surprised upon seeing you and Hellavia, but did nothing other than scrutinizing you with their gaze upon entering their field of view. Upon walking a little longer and crossing a pair of enormous doors, the two of you reached a grand amphitheater where old shadowy men formed a circle in high stone chairs. Candles and darkness decorated the whole place.",
         choices: [
             {
                 text: "*whisper to yourself: this is kind of creepy*",
-                interest: +0,
+                interest: 0,
                 nextText: 26
             }
         ]
@@ -284,12 +309,12 @@ const textNodes =  [
         choices: [
             {
                 text: "Continue Listening",
-                interest: +2,
+                interest: 2,
                 nextText: 27
             },
             {
                 text: "Try to sneak away",
-                interest: +1,
+                interest: 1,
                 nextText: 28
             }
         ]
@@ -320,12 +345,12 @@ const textNodes =  [
         choices: [
             {
                 text: "You decide to be honest, explain about the strange book.",
-                interest: +2,
+                interest: 2,
                 nextText: 30
             },
             {
                 text: "You say you are unsure.",
-                interest: +2,
+                interest: 2,
                 nextText: 31
             },
             {
@@ -341,7 +366,7 @@ const textNodes =  [
         choices: [
             {
                 text: "You refuse, you want to protect your world.",
-                interest: +3,
+                interest: 3,
                 nextText: 33
             }
         ]
@@ -352,7 +377,7 @@ const textNodes =  [
         choices: [
             {
                 text: "You tell them about your homeworld.",
-                interest: +2,
+                interest: 2,
                 nextText: 34
             }
         ]
@@ -404,7 +429,7 @@ const textNodes =  [
         choices: [
             {
                 text: "Ask if she is okay",
-                interest: +3,
+                interest: 3,
                 nextText: 37
             },
             {
