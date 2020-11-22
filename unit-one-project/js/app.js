@@ -6,7 +6,8 @@ const img = document.getElementById("hellaviaNormal");
 const img2 = document.getElementById("hellaviaHappy");
 const audioBackgroundBongos = new Audio('https://www.mboxdrive.com/Ambient%20Bongos.mp3');
 const audioBackgroundSliceOfLife = new Audio('https://www.mboxdrive.com/Slice%20of%20Life.mp3');
-
+let hellaviaVoice1 = new Audio('https://www.mboxdrive.com/Ha%20I%20am%20the%20best.mp3');
+let hellaviaVoice2 = new Audio('https://www.mboxdrive.com/okay%20good%20you%20are%20corpo.mp3');
 
 // Defining variables //
 let state = {
@@ -20,7 +21,7 @@ let state = {
 function start() {
     state;
     audioBackgroundSliceOfLife.play();
-    showTextNode(0);
+    showTextNode(7);
 };
 
 
@@ -40,6 +41,17 @@ function showTextNode(textIndex) {
     }
     background();
 
+    function voiceoverDialogues() {
+        if (textNode.id === 8) {
+            audioBackgroundBongos.volume = 0.5;
+            hellaviaVoice1.play();
+        } else if (textNode.id === 11) {
+            audioBackgroundBongos.volume = 0.5;
+            hellaviaVoice2.play();
+        }
+    }
+    voiceoverDialogues();
+
     function character() {
         if (textNode.id >= 3 && textNode.id <= 7) {
            audioBackgroundSliceOfLife.pause();
@@ -48,9 +60,10 @@ function showTextNode(textIndex) {
         if (textNode.id === 8) {
             img2.src = "https://i.imgur.com/D31rZSW.png?1";
             img.style.display = "none";
-            audioBackgroundBongos.pause();
+            // audioBackgroundBongos.pause();
         }
         if (textNode.id >= 9 && textNode.id <= 10) {
+            hellaviaVoice1.pause();
             img2.style.display = "none";
             img.src = "https://i.imgur.com/xUZ8qt3.png";
         }

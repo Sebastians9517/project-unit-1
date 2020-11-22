@@ -78,7 +78,7 @@ const textNodes =  [
     },
     {
         id: 8,
-        text: "???: \n 'Ha! I am the best! Uhh, wait, are you alive or dead or... -she pokes you slightly with her staff- oh, it breaths, cool!'",
+        text: "???: \n 'Ha! I am the best! Uhh, wait, are you alive or dead or... \n -she pokes you with her staff- \n 'oh, it breaths, cool!'",
         choices: [
             {
                 text: "Uhg...",
