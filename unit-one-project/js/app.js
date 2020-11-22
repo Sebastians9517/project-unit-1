@@ -1,11 +1,12 @@
 // Defining constants //
 const textElement = document.getElementById('story-text');
 const choiceButtons = document.getElementById('choices-menu');
-// let hVoice1 = new Audio('https://clyp.it/5vdasdy2');
 
+const img = document.getElementById("hellaviaNormal");
+const img2 = document.getElementById("hellaviaHappy");
+const audioBackgroundBongos = new Audio('https://www.mboxdrive.com/Ambient%20Bongos.mp3');
+const audioBackgroundSliceOfLife = new Audio('https://www.mboxdrive.com/Slice%20of%20Life.mp3');
 
-//     document.body.style.background = 'url('www.maria-laach.de/assets/components/phpthumbof/cache/bibliothek_buecher.9ab133464b0fb3f97633425a63672a54.jpg')
-//   }
 
 // Defining variables //
 let state = {
@@ -18,6 +19,7 @@ let state = {
 // Defining functions //
 function start() {
     state;
+    audioBackgroundSliceOfLife.play();
     showTextNode(0);
 };
 
@@ -39,11 +41,14 @@ function showTextNode(textIndex) {
     background();
 
     function character() {
-        let img = document.getElementById("hellaviaNormal");
-        let img2 = document.getElementById("hellaviaHappy");
+        if (textNode.id >= 3 && textNode.id <= 7) {
+           audioBackgroundSliceOfLife.pause();
+           audioBackgroundBongos.play();
+        }
         if (textNode.id === 8) {
             img2.src = "https://i.imgur.com/D31rZSW.png?1";
             img.style.display = "none";
+            audioBackgroundBongos.pause();
         }
         if (textNode.id >= 9 && textNode.id <= 10) {
             img2.style.display = "none";
@@ -83,7 +88,7 @@ function selectChoice(choices) {
     console.log(state.hInterest, "interest")
 
     const nextTextNodeId = choices.nextText;
-    if (nextTextNodeId < 0) {
+    if (nextTextNodeId < -2) {
         return start();
     };
     state = Object.assign(state, choices.interest);

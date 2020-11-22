@@ -1,21 +1,19 @@
-// let hVoice1 = new Audio('https://soundcloud.com/sebastian-guzman-152985853/ha-i-am-the-best');
 
 const textNodes =  [
     {
         id: 0, //Prologue
-        text: "Being a programmer with a reading addiction sometimes can be troublesome. \n After a long week of not leaving your apartment in order to meed the deadline for a project (otherwise your boss ",
+        text: "Being a programmer with a reading addiction sometimes can be troublesome. \n After a long week of not leaving your apartment in order to meet a project deadline (otherwise your boss, The Manliest Shahzad Stinson, will get mad at you) you decide to visit your local library to unwind and release some of your stress by simple relaxing with a good book and a warm cup of coffee.",
         choices: [
             {
                 text: "Start.",
                 interest: 0,
                 nextText: 1,
-                // audio: hVoice1.play('https://soundcloud.com/sebastian-guzman-152985853/ha-i-am-the-best')
             }
         ],
     },
     {
         id: 1,
-        text: "You are scavenging through the freshly arrived collection of materials at your local library. The place is closing soon, so you quickly pick up your favourites, plus a few new ones.",
+        text: "You are scavenging through the freshly arrived collection of materials, the attendant lets you know the place is closing soon, so you quickly pick up your favourites, plus a few new ones to devour on your upcoming days off.",
         choices: [
             {
                 text: "Continue looking around.",
@@ -39,7 +37,6 @@ const textNodes =  [
         id: 3,
         text: "Upon further inspection and a quick flip through the pages you realize that, strangely enough, the book has no author displayed or where it was published, not even a publication date. And to make things even more odd almost all of the pages seem to have faded out with time and only three of them remain somewhat legible and brigthly colored. They seem to be short stories and you decide to read one out of curiosity.",
         choices: [
-            // FUNCTION HERE THAT CHANGES THE SCREEN DISPLAYING A CHARACTER SELECTION MENU WHILE DISPLAYING THE NAME AND A BRIEF DESCRIPTION BELOW, ALONG WITH THE OPTION TO SELECT THE DESIRED CHARACTER //
             {
                 text: "Read the story of Hellavia, The Sorceress.",
                 interest: 0,
