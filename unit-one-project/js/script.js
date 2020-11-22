@@ -3,7 +3,7 @@
 const textNodes =  [
     {
         id: 0, //Prologue
-        text: "Being a programmer with a reading addiction sometimes can be troublesome.",
+        text: "Being a programmer with a reading addiction sometimes can be troublesome. \n After a long week of not leaving your apartment in order to meed the deadline for a project (otherwise your boss ",
         choices: [
             {
                 text: "Start.",
@@ -15,7 +15,7 @@ const textNodes =  [
     },
     {
         id: 1,
-        text: "You are scavenging through the freshly arrived collection of materials at your local bookstore. The place is closing soon, so you quickly pick up your favourites, plus a few new ones.",
+        text: "You are scavenging through the freshly arrived collection of materials at your local library. The place is closing soon, so you quickly pick up your favourites, plus a few new ones.",
         choices: [
             {
                 text: "Continue looking around.",

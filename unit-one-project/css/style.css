@@ -39,6 +39,7 @@ body {
     grid-template-columns: repeat(2, auto);
     gap: 10px;
     margin-top: 20px;
+    opacity: 1;
 }
 
 .button {
@@ -77,11 +78,11 @@ from {
 }
 }
 
-#hellavia1 {
+img {
     display: flex;
     justify-content: center;
     align-content: center;
-    background-image: url(https://i.imgur.com/xUZ8qt3.png);
+    /* background-image: url(https://i.imgur.com/xUZ8qt3.png); */
     position: relative;
     z-index: -10;
     /* height: 850px;
