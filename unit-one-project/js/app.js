@@ -38,7 +38,15 @@ const hellaviaVoice28 = new Audio('https://www.mboxdrive.com/thanks%20companion.
 const hellaviaVoice29 = new Audio('https://www.mboxdrive.com/good%20choice%20my%20pet.mp3'); //Good choice my pet, partner now I guess?
 const hellaviaVoice30 = new Audio('https://www.mboxdrive.com/alright%20lets%20celebrate.mp3'); //Alright! Let's celebrate
 const hellaviaVoice31 = new Audio('https://www.mboxdrive.com/oh%20i%20guess%20i%20understand.mp3'); //oh, I guess I understand
-const hellaviaVoice32 = new Audio('')
+const hellaviaVoice32 = new Audio('https://www.mboxdrive.com/youre%20not%20a%20bad%20guy.mp3'); //you're not my type
+const hellaviaVoice33 = new Audio('https://www.mboxdrive.com/my%20new%20friend%20from%20another%20world.mp3'); //I can go with that
+const hellaviaVoice34 = new Audio('https://www.mboxdrive.com/celebrate%20our%20new%20friendship.mp3'); //we celebrate our friendship today
+const hellaviaVoice35 = new Audio('https://www.mboxdrive.com/yeah%20I%20figured%20fine%20by%20me.mp3') //yeah I figured
+const hellaviaVoice36 = new Audio('https://www.mboxdrive.com/look%20i%20dont%20blame%20you%20for%20trying.mp3'); // look I don't blame you for trying to get away
+const hellaviaVoice37 = new Audio('https://www.mboxdrive.com/okay%20then%20but%20would%20you%20at%20least%20stay%20for%20a%20day.mp3'); //okay then, but would you at least stay for a day
+const hellaviaVoice38 = new Audio('https://www.mboxdrive.com/lets%20at%20least%20have%20you%20try%20one%20of%20our%20drinks.mp3'); //let's at least have you try one of our drinks
+const hellaviaVoice39 = new Audio('https://www.mboxdrive.com/maybe%20i%20treated%20you%20too%20harshly.mp3'); //maybe I treated you too harshly
+const hellaviaVoice40 = new Audio('https://www.mboxdrive.com/well%20goodbye%20thanks%20for%20being%20summoned%20here.mp3'); //well, bye, thanks for 
 
 
 // Defining variables //
