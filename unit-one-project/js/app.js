@@ -1,8 +1,8 @@
 // Defining constants //
 const textElement = document.getElementById('story-text');
 const choiceButtons = document.getElementById('choices-menu');
-const img = document.getElementById("hellaviaNormal"); //Hellavia normal sprite
-const img2 = document.getElementById("hellaviaHappy"); //Hellava happy sprite
+const hellaviaNormal = document.getElementById("hellaviaNormal"); //Hellavia normal sprite
+const hellaviaHappy = document.getElementById("hellaviaHappy"); //Hellava happy sprite
 const audioBackgroundBongos = new Audio('https://www.mboxdrive.com/Ambient%20Bongos.mp3');
 const audioBackgroundBarBrawl = new Audio('https://freepd.com/music/Bar%20Brawl.mp3');
 const audioMagicalTransition = new Audio('https://www.mboxdrive.com/Magical%20Transition.mp3');
@@ -14,12 +14,36 @@ const hellaviaVoice4 = new Audio('https://www.mboxdrive.com/no%20thank%20you%20n
 const hellaviaVoice5 = new Audio('https://www.mboxdrive.com/okay%20you%20are%20the%20proof%20I%20need.mp3'); //You are the proof I need
 const hellaviaVoice6 = new Audio('https://www.mboxdrive.com/pick%20one%20question.mp3'); //Pick one question my pet
 const hellaviaVoice7 = new Audio('https://www.mboxdrive.com/hellavia%20your%20local%20supreme%20warlock.mp3'); //Hellavia, your local supreme warlock
-
+const hellaviaVoice8 = new Audio('https://www.mboxdrive.com/your%20moms%20been%20failling%20ever%20since%20you%20were%20born.mp3'); //You mom's been failing ever since you were born
+const hellaviaVoice9 = new Audio('https://www.mboxdrive.com/aw%20how%20cute.mp3'); //Aww how cute
+const hellaviaVoice10 = new Audio('https://www.mboxdrive.com/nice%20try%20my%20pet.mp3'); //Nice try my pet, I can respect those who attempt to fight against their fate
+const hellaviaVoice11 = new Audio('https://www.mboxdrive.com/i%20dont%20appreciate%20being%20stabbed.mp3'); //I don't appreciate being stabbed in the back
+const hellaviaVoice12 = new Audio('https://www.mboxdrive.com/now%20now%20you%20can%20get%20to%20speak%20and%20thanks%20for%20protecting.mp3'); //now now ... thanks for trying to protect me
+const hellaviaVoice13 = new Audio('https://www.mboxdrive.com/now%20now%20you%20can%20get%20to%20speak%20refrain%20from%20running.mp3'); //now now ... refrain from running again
+const hellaviaVoice14 = new Audio('https://www.mboxdrive.com/now%20now%20you%20can%20get%20to%20speak%20backstab%20me%20again%20lick.mp3'); //now now ... is that clear?
+const hellaviaVoice15 = new Audio('https://www.mboxdrive.com/good%20sirs%20and%20ladies.mp3'); //Good sirs and ladies
+const hellaviaVoice16 = new Audio('https://www.mboxdrive.com/i%20present%20you%20proof%20of%20my%20theories.mp3'); //I present you proof of my theories
+const hellaviaVoice17 = new Audio('https://www.mboxdrive.com/ugh%20they%20take%20forever.mp3'); //ugh they take forever, oh you actually care?
+const hellaviaVoice18 = new Audio('https://www.mboxdrive.com/i%20get%20it%20i%20get%20it%20you%20are%20afraid.mp3'); //Afraid we'd cook you or something
+const hellaviaVoice19 = new Audio('https://www.mboxdrive.com/youll%20likely%20be%20set%20free%20or%20resummoned.mp3'); //you'll likely be set free
+const hellaviaVoice20 = new Audio('https://www.mboxdrive.com/ha%20or%20else%20what.mp3'); //ha, or else what?
+const hellaviaVoice21 = new Audio('https://www.mboxdrive.com/you%20have%20no%20power%20here%20my%20pet.mp3'); //you have no power here
+const hellaviaVoice22 = new Audio('https://www.mboxdrive.com/oh%20boy%20i%20hate%20this%20part.mp3'); //oh boy, I hate this part
+const hellaviaVoice23 = new Audio('https://www.mboxdrive.com/yep%20I%20knew%20youd%20see%20how%20good%20i%20am.mp3'); //I knew you'd see how good I am
+const hellaviaVoice24 = new Audio('https://www.mboxdrive.com/yessss.mp3'); //yeeessss
+const hellaviaVoice25 = new Audio('https://www.mboxdrive.com/summoner%20hellavia.mp3'); //summoner Hellavia, sounds cool doesn't it?
+const hellaviaVoice26 = new Audio('https://www.mboxdrive.com/i%20am%20gonna%20summon%20so%20many%20pets.mp3'); //I'm gonna summon so many pets
+const hellaviaVoice27 = new Audio('https://www.mboxdrive.com/oh%20of%20course%20gotta%20figure%20out%20what%20to%20do%20with%20you.mp3'); //Oh, of course, gotta figure out what to do with you
+const hellaviaVoice28 = new Audio('https://www.mboxdrive.com/thanks%20companion.mp3'); //Thanks companion
+const hellaviaVoice29 = new Audio('https://www.mboxdrive.com/good%20choice%20my%20pet.mp3'); //Good choice my pet, partner now I guess?
+const hellaviaVoice30 = new Audio('https://www.mboxdrive.com/alright%20lets%20celebrate.mp3'); //Alright! Let's celebrate
+const hellaviaVoice31 = new Audio('https://www.mboxdrive.com/oh%20i%20guess%20i%20understand.mp3'); //oh, I guess I understand
+const hellaviaVoice32 = new Audio('')
 
 
 // Defining variables //
 let state = {
-    hInterest: 0,
+    // hInterest: 0,
     // nInterest: 0,
     // sInterest: 0
 };
@@ -27,9 +51,9 @@ let state = {
 
 // Defining functions //
 function start() {
-    state;
-    audioBackgroundSliceOfLife.play();
-    showTextNode(0);
+    // state;
+    // audioBackgroundSliceOfLife.play();
+    showTextNode(29);
 };
 
 
@@ -69,14 +93,14 @@ function showTextNode(textIndex) {
            audioMagicalTransition.play();
         }
         if (textNode.id === 8) {
-            img2.src = "https://i.imgur.com/D31rZSW.png?1";
-            img.style.display = "none";
+            hellaviaHappy.src = "https://i.imgur.com/D31rZSW.png?1";
+            hellaviaNormal.style.display = "none";
             // audioBackgroundBongos.pause();
         }
         if (textNode.id >= 9 && textNode.id <= 10) {
             hellaviaVoice1.pause();
-            img2.style.display = "none";
-            img.src = "https://i.imgur.com/xUZ8qt3.png";
+            hellaviaHappy.style.display = "none";
+            hellaviaNormal.src = "https://i.imgur.com/xUZ8qt3.png";
         }
     }
     character();
@@ -108,16 +132,16 @@ function showOption(choice) {
 
 function selectChoice(choices) {
     // state.hInterest += choices.interest
-    console.log(choices.interest, "choices")
-    console.log(state.hInterest, "interest")
+    // console.log(choices.interest, "choices")
+    // console.log(state.hInterest, "interest")
 
     const nextTextNodeId = choices.nextText;
     if (nextTextNodeId < -2) {
         return start();
     };
-    state = Object.assign(state, choices.interest);
+    state = Object.assign(state, choices.setState);
     showTextNode(nextTextNodeId);
 };
 
 
-// start();
+start();

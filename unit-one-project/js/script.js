@@ -6,7 +6,7 @@ const textNodes =  [
         choices: [
             {
                 text: "Start.",
-                interest: 0,
+                // interest: 0,
                 nextText: 1,
             }
         ],
@@ -17,7 +17,7 @@ const textNodes =  [
         choices: [
             {
                 text: "Continue looking around.",
-                interest: 0,
+                // interest: 0,
                 nextText: 2
             }
         ]
@@ -28,7 +28,7 @@ const textNodes =  [
         choices: [
             {
                 text: "Have a peek in the book.",
-                interest: 0,
+                // interest: 0,
                 nextText: 3
             }
         ]
@@ -39,17 +39,17 @@ const textNodes =  [
         choices: [
             {
                 text: "Read the story of Hellavia, The Sorceress.",
-                interest: 0,
+                // interest: 0,
                 nextText: 4
             },
         //     {
         //         text: "Read the legend of Nihliana, The Ancient.",
-        //         interest: 0,
+                // interest: 0,
         //         nextText: 5
         //     },
         //     {
         //         text: "Read the tale of Shaileen, The Protector.",
-        //         interest: 0,
+                // interest: 0,
         //         nextText: 6
         //     }
         ]
@@ -60,7 +60,7 @@ const textNodes =  [
         choices: [
             {
                 text: "Start reading.",
-                interest: 0,
+                // interest: 0,
                 nextText: 7
             }
         ]
@@ -71,7 +71,7 @@ const textNodes =  [
         choices: [
             {
                 text: "While you read you start to feel increasingly dizzy...",
-                interest: 0,
+                // interest: 0,
                 nextText: 8
             }
         ]
@@ -82,7 +82,7 @@ const textNodes =  [
         choices: [
             {
                 text: "Uhg...",
-                interest: 0,
+                // interest: 0,
                 nextText: 9
             }
         ]
@@ -93,7 +93,7 @@ const textNodes =  [
         choices: [
             {
                 text: "*Sit up*",
-                interest: 0,
+                // interest: 0,
                 nextText: 10
             }
         ]
@@ -104,7 +104,7 @@ const textNodes =  [
         choices: [
             {
                 text: "*You let out a slight groan*",
-                interest: 0,
+                // interest: 0,
                 nextText: 11
             }
         ]
@@ -115,17 +115,17 @@ const textNodes =  [
         choices: [
             {
                 text: "... Yes.",
-                interest: 0,
+                // interest: 0,
                 nextText: 12
             },
             {
                 text: "Who are you...? Where am I?",
-                interest: 0,
+                // interest: 0,
                 nextText: 12
             },
             {
                 text: "Do not poke me again.",
-                interest: 0,
+                // interest: 0,
                 nextText: 12
             }
         ]
@@ -136,12 +136,12 @@ const textNodes =  [
         choices: [
             {
                 text: "Uhh, no. But thank you.",
-                interest: 2,
+                // interest: 2,
                 nextText: 13
             },
             {
                 text: "What? Go where? What is this place?",
-                interest: 1,
+                // interest: 1,
                 nextText: 14
             }
         ]
@@ -152,7 +152,7 @@ const textNodes =  [
         choices: [
             {
                 text: "Who are you? What do you want?",
-                interest: 0,
+                // interest: 0,
                 nextText: 15
             }
         ]
@@ -163,7 +163,7 @@ const textNodes =  [
         choices: [
             {
                 text: "Who are you? What do you want?",
-                interest: 0,
+                // interest: 0,
                 nextText: 15
             }
         ]
@@ -174,7 +174,7 @@ const textNodes =  [
         choices: [
             {
                 text: "You try to speak but no sound comes out of your mouth.",
-                interest: 0,
+                // interest: 0,
                 nextText: 16
             }
         ]
@@ -185,7 +185,7 @@ const textNodes =  [
         choices: [
             {
                 text: "...",
-                interest: 0,
+                // interest: 0,
                 nextText: 17
             }
         ]
@@ -196,7 +196,7 @@ const textNodes =  [
         choices: [
             {
                 text: "You still can't speak.",
-                interest: 0,
+                // interest: 0,
                 nextText: 18
             }
         ]
@@ -207,17 +207,17 @@ const textNodes =  [
         choices: [
             {
                 text: "Try to deflect the attack.",
-                interest: 3,
+                // interest: 3,
                 nextText: 19
             },
             {
                 text: "Run away.",
-                interest: 2,
+                // interest: 2,
                 nextText: 20
             },
             {
                 text: "Attempt to help the others.",
-                interest: -3,
+                // interest: -3,
                 nextText: 21
             }
         ]
@@ -228,7 +228,7 @@ const textNodes =  [
         choices: [
             {
                 text: "You tried to speak but still can't.",
-                interest: 0,
+                // interest: 0,
                 nextText: 22
             }
         ]
@@ -240,7 +240,7 @@ const textNodes =  [
         choices: [
             {
                 text: "Tsch, so close.",
-                interest: 0,
+                // interest: 0,
                 nextText: 23
             }
         ]
@@ -251,7 +251,7 @@ const textNodes =  [
         choices: [
             {
                 text: "Tsch, so close.",
-                interest: 0,
+                // interest: 0,
                 nextText: 24
             }
         ]
@@ -262,7 +262,7 @@ const textNodes =  [
         choices: [
             {
                 text: "Walk behind her.",
-                interest: 0,
+                // interest: 0,
                 nextText: 25
             }
         ]
@@ -273,7 +273,7 @@ const textNodes =  [
         choices: [
             {
                 text: "Walk behind her.",
-                interest: 0,
+                // interest: 0,
                 nextText: 25
             }
         ]
@@ -284,7 +284,7 @@ const textNodes =  [
         choices: [
             {
                 text: "Walk behind her.",
-                interest: 0,
+                // interest: 0,
                 nextText: 25
             }
         ]
@@ -295,7 +295,7 @@ const textNodes =  [
         choices: [
             {
                 text: "*whisper to yourself: this is kind of creepy*",
-                interest: 0,
+                // interest: 0,
                 nextText: 26
             }
         ]
@@ -306,12 +306,12 @@ const textNodes =  [
         choices: [
             {
                 text: "Continue Listening",
-                interest: 2,
+                // interest: 2,
                 nextText: 27
             },
             {
                 text: "Try to sneak away",
-                interest: 1,
+                // interest: 1,
                 nextText: 28
             }
         ]
@@ -342,17 +342,19 @@ const textNodes =  [
         choices: [
             {
                 text: "You decide to be honest, explain about the strange book.",
-                interest: 2,
+                setState: {hInterest: true},
+                // interest: 2,
                 nextText: 30
             },
             {
                 text: "You say you are unsure.",
-                interest: 2,
+                setState: {hInterest: true},
+                // interest: 2,
                 nextText: 31
             },
             {
                 text: "You say she kidnapped you from your home.",
-                interest: -5,
+                // interest: -5,
                 nextText: 32
             }
         ]
@@ -363,7 +365,8 @@ const textNodes =  [
         choices: [
             {
                 text: "You refuse, you want to protect your world.",
-                interest: 3,
+                setState: {hInterest: true},
+                // interest: 3,
                 nextText: 33
             }
         ]
@@ -374,7 +377,8 @@ const textNodes =  [
         choices: [
             {
                 text: "You tell them about your homeworld.",
-                interest: 2,
+                setState: {hInterest: true},
+                // interest: 2,
                 nextText: 34
             }
         ]
@@ -385,7 +389,7 @@ const textNodes =  [
         choices: [
             {
                 text: "You say you were raised by elves on another country.",
-                interest: -4,
+                // interest: -4,
                 nextText: 35
             }
         ]
@@ -426,7 +430,7 @@ const textNodes =  [
         choices: [
             {
                 text: "Ask if she is okay",
-                interest: 3,
+                // interest: 3,
                 nextText: 37
             },
             {
@@ -435,7 +439,7 @@ const textNodes =  [
             },
             {
                 text: "Demand she lets you go",
-                interest: -2,
+                // interest: -2,
                 nextText: 39
             }
         ]
@@ -515,9 +519,20 @@ const textNodes =  [
         text: "Hellavia: \n 'Oh, of course... I guess I gotta figure out what to do with you, let's see...'",
         choices: [
             {
-                text: "I have a bad feeling about this.",
-                nextText: null // SOMETHING HERE TO TAKE YOU TO THE RIGHT NODE ID (45, 48, 51) ACCORDING TO THE PREVIOUS CHOICES //
-            }
+                text: "Congratulate her on her success.",
+                requiredState: (currentState) => currentState.hInterest,
+                nextText: 45
+            },
+            {
+                text: "Tell her you would like to go home now.",
+                requiredState: (currentState) => currentState.hInterest,
+                nextText: 48
+            },
+            {
+                text: "Tell her you don't really care and just want to go back home.",
+                nextText: 51
+            },
+
         ]
     },
     { //If helped her with her goal almost all the time

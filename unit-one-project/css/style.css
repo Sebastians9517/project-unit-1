@@ -37,9 +37,11 @@ body {
 .buttons-menu {
     display: grid;
     justify-content: center;
+    align-content: center;
     grid-template-columns: repeat(2, auto);
     gap: 10px;
     margin-top: 20px;
+    margin-left: 20px;
     opacity: 1;
 }
 
