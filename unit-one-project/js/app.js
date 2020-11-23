@@ -57,7 +57,7 @@ let state = {};
 // Defining functions //
 function start() {
     state;
-    showTextNode(8);
+    showTextNode(0);
 };
 
 
@@ -115,7 +115,7 @@ function showTextNode(textIndex) {
             audioBackgroundInventingFlight.play();
         }
     }
-    // audioControl();
+    audioControl();
 
     function character() { //This function controls which sprite is to be shown at what time
         if (textNode.id === 8) {hellaviaSprite.src = "https://i.imgur.com/D31rZSW.png?1";}
