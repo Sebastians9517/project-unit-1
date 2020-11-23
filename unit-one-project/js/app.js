@@ -1,8 +1,7 @@
 // Defining constants //
 const textElement = document.getElementById('story-text');
 const choiceButtons = document.getElementById('choices-menu');
-const hellaviaNormal = document.getElementById("hellaviaNormal"); //Hellavia normal sprite
-const hellaviaHappy = document.getElementById("hellaviaHappy"); //Hellava happy sprite
+const hellaviaSprite = document.getElementById("hellaviaNormal");
 const audioBackgroundBongos = new Audio('https://www.mboxdrive.com/Ambient%20Bongos.mp3');
 const audioBackgroundBarBrawl = new Audio('https://freepd.com/music/Bar%20Brawl.mp3');
 const audioMagicalTransition = new Audio('https://www.mboxdrive.com/Magical%20Transition.mp3');
@@ -50,18 +49,14 @@ const hellaviaVoice40 = new Audio('https://www.mboxdrive.com/well%20goodbye%20th
 
 
 // Defining variables //
-let state = {
-    // hInterest: 0,
-    // nInterest: 0,
-    // sInterest: 0
-};
+let state = {};
 
 
 // Defining functions //
 function start() {
     state;
     audioBackgroundSliceOfLife.play();
-    showTextNode(0);
+    showTextNode(8);
 };
 
 
@@ -78,7 +73,7 @@ function showTextNode(textIndex) {
         } else if (textNode.id === 25) {
             document.body.style.backgroundImage = "url('https://i.imgur.com/n8JaEKC.jpg')";
         } else if (textNode.id >= 26 && textNode.id <= 42) {
-
+            document.body.style.backgroundImage = "url('https://i.imgur.com/9SpiN4n.jpg')";
         }
     }
     background();
@@ -103,13 +98,11 @@ function showTextNode(textIndex) {
 
     function character() { //This function controls which sprite is to be shown at what time
         if (textNode.id === 8) {
-            hellaviaHappy.src = "https://i.imgur.com/D31rZSW.png?1";
-            hellaviaNormal.style.display = "none";
-            // audioBackgroundBongos.pause();
+            hellaviaSprite.src = "https://i.imgur.com/D31rZSW.png?1";
         }
         if (textNode.id >= 9 && textNode.id <= 10) {
-            hellaviaNormal.src = "https://i.imgur.com/xUZ8qt3.png";
-            hellaviaHappy.style.display = "none";
+            hellaviaSprite.src = "https://i.imgur.com/xUZ8qt3.png";
+
         }
     }
     character();
