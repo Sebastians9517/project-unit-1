@@ -1,4 +1,5 @@
 // Defining constants //
+const elem = document.documentElement;
 const textElement = document.getElementById('story-text');
 const choiceButtons = document.getElementById('choices-menu');
 const hellaviaSprite = document.getElementById("hellaviaNormal");
@@ -8,7 +9,7 @@ const audioMagicalTransition = new Audio('https://www.mboxdrive.com/Magical%20Tr
 const audioBackgroundSliceOfLife = new Audio('https://www.mboxdrive.com/Slice%20of%20Life.mp3');
 const audioBackgroundInventingFlight = new Audio('https://freepd.com/music/Inventing%20Flight.mp3');
 const hellaviaVoice1 = new Audio('https://www.mboxdrive.com/Ha%20I%20am%20the%20best.mp3'); //Ha! I'm the best
-const hellaviaVoice2 = new Audio('https://www.mboxdrive.com/okay%20good%20you%20are%20corpo.mp3'); //Okay good
+const hellaviaVoice2 = new Audio('https://www.mboxdrive.com/okay%20good%20you%20are%20corpo.mp3'); //Okay good corpo and real
 const hellaviaVoice3 = new Audio('https://www.mboxdrive.com/okay%20we%20do%20speak%20the%20same%20language.mp3'); //Okay, we do speak the same language
 const hellaviaVoice4 = new Audio('https://www.mboxdrive.com/no%20thank%20you%20nu-uh%20that%20won_t%20cut%20it.mp3'); //No thank you? Nu-uh
 const hellaviaVoice5 = new Audio('https://www.mboxdrive.com/okay%20you%20are%20the%20proof%20I%20need.mp3'); //You are the proof I need
@@ -80,7 +81,7 @@ function showTextNode(textIndex) {
 
     function audioControl() { //This function controls the character voice dialogues as well as the background music transitions
         if (textNode.id === 0) {
-        // audioBackgroundSliceOfLife.play();
+            audioBackgroundSliceOfLife.play();
         } else if (textNode.id === 3) {
             audioBackgroundSliceOfLife.pause();
             audioMagicalTransition.play();
@@ -101,6 +102,9 @@ function showTextNode(textIndex) {
             hellaviaVoice3.pause();
             hellaviaVoice5.pause();
             hellaviaVoice4.play();
+            setTimeout(() => {
+
+            }, 50000);
         } else if (textNode.id === 16) {
             audioBackgroundBongos.pause();
             audioBackgroundBarBrawl.volume = 0.7;
@@ -111,7 +115,7 @@ function showTextNode(textIndex) {
             audioBackgroundInventingFlight.play();
         }
     }
-    audioControl();
+    // audioControl();
 
     function character() { //This function controls which sprite is to be shown at what time
         if (textNode.id === 8) {hellaviaSprite.src = "https://i.imgur.com/D31rZSW.png?1";}
@@ -148,10 +152,6 @@ function showOption(choice) {
 
 
 function selectChoice(choices) {
-    // state.hInterest += choices.interest
-    // console.log(choices.interest, "choices")
-    // console.log(state.hInterest, "interest")
-
     const nextTextNodeId = choices.nextText;
     if (nextTextNodeId < -2) {
         return start();
@@ -160,4 +160,22 @@ function selectChoice(choices) {
     showTextNode(nextTextNodeId);
 };
 
-// start();
+function openFullscreen() {
+    if (elem.requestFullscreen) {
+      elem.requestFullscreen();
+    } else if (elem.webkitRequestFullscreen) {
+      elem.webkitRequestFullscreen();
+    } else if (elem.msRequestFullscreen) {
+      elem.msRequestFullscreen();
+    }
+}
+function closeFullscreen() {
+    if (document.exitFullscreen) {
+      document.exitFullscreen();
+    } else if (document.webkitExitFullscreen) {
+      document.webkitExitFullscreen();
+    } else if (document.msExitFullscreen) {
+      document.msExitFullscreen();
+    }
+}
+start();

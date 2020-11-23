@@ -53,7 +53,7 @@ button {
     background-size: cover;
     background-color: rgb(41, 32, 7);
     height: 80px;
-    width: 220px;
+    width: 320px;
     border: 2px solid rgb(176, 176, 243);
     border-radius: 4px;
     padding: 5px 10px;
@@ -109,13 +109,44 @@ img {
     display: flex;
     justify-content: center;
     align-content: center;
-    /* background-image: url(https://i.imgur.com/xUZ8qt3.png); */
     position: absolute;
     left: 1050px;
     z-index: -10;
+    /* background-image: url(https://i.imgur.com/xUZ8qt3.png); */
     /* height: 850px;
      width: 100px; */
      /* overflow: hidden; */
     /* height: 100px; */
     /* width: 100px; */
+}
+
+:-webkit-full-screen {
+    background-color: yellow;
+}
+
+:-ms-fullscreen {
+    background-color: yellow;
+}
+
+:fullscreen {
+    background-color: yellow;
+}
+
+#fullscreen-controls {
+    display: flex;
+    padding: 20px;
+    font-size: 20px;
+    justify-content: left;
+    align-content: flex-start;
+    height: 20px;
+    width: 70px;
+    margin-bottom: 970px;
+    margin-right: 1800px;
+    position: absolute;
+    opacity: 0.7;
+}
+
+.fullscreen-button {
+    font-size: 10px;
+    height: 40px;
 }

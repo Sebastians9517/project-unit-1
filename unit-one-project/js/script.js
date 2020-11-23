@@ -636,7 +636,7 @@ const textNodes =  [
     {
         id: 54,
         text: "The End.",
-        nextText: -1.
+        nextText: -3.
     }
 
 
