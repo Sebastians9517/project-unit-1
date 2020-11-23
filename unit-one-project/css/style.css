@@ -34,6 +34,7 @@ body {
     box-shadow: 0 0 0 10px 2px;
     margin: 0 0 85px 0;
     border-style: solid;
+
 }
 
 .buttons-menu {
@@ -50,12 +51,13 @@ body {
 button {
     /* background-image: url('https://i.imgur.com/Wrudj45.png'); */
     background-size: cover;
-    background-color: rgb(190, 236, 136);
-    height: 50px;
-    border: 2px solid rgb(4, 4, 255);
+    background-color: rgb(41, 32, 7);
+    height: 80px;
+    width: 220px;
+    border: 2px solid rgb(176, 176, 243);
     border-radius: 4px;
     padding: 5px 10px;
-    color: rgb(43, 10, 10);
+    color: rgb(240, 240, 240);
     position: relative;
     z-index: 10;
     outline: none;
@@ -65,7 +67,7 @@ button {
     font-weight: bold;
 }
 
-.button:hover {
+button:hover {
     border-color: turquoise;
 
 }

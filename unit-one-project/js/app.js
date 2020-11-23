@@ -6,6 +6,7 @@ const audioBackgroundBongos = new Audio('https://www.mboxdrive.com/Ambient%20Bon
 const audioBackgroundBarBrawl = new Audio('https://freepd.com/music/Bar%20Brawl.mp3');
 const audioMagicalTransition = new Audio('https://www.mboxdrive.com/Magical%20Transition.mp3');
 const audioBackgroundSliceOfLife = new Audio('https://www.mboxdrive.com/Slice%20of%20Life.mp3');
+const audioBackgroundInventingFlight = new Audio('https://freepd.com/music/Inventing%20Flight.mp3');
 const hellaviaVoice1 = new Audio('https://www.mboxdrive.com/Ha%20I%20am%20the%20best.mp3'); //Ha! I'm the best
 const hellaviaVoice2 = new Audio('https://www.mboxdrive.com/okay%20good%20you%20are%20corpo.mp3'); //Okay good
 const hellaviaVoice3 = new Audio('https://www.mboxdrive.com/okay%20we%20do%20speak%20the%20same%20language.mp3'); //Okay, we do speak the same language
@@ -55,7 +56,6 @@ let state = {};
 // Defining functions //
 function start() {
     state;
-    audioBackgroundSliceOfLife.play();
     showTextNode(8);
 };
 
@@ -66,9 +66,9 @@ function showTextNode(textIndex) {
     function background() { //This function changes the background in accordance with the current flow of the game text
         if (textNode.id <= 1) {
             document.body.style.backgroundImage = "url('https://zonacarlos.files.wordpress.com/2016/02/the_library_of_babel_by_owen_c-d3gvei3.jpg')";
-        } else if (textNode.id >= 8 && textNode.id <= 13) {
+        } else if (textNode.id >= 8 && textNode.id <= 14) {
             document.body.style.backgroundImage = "url('https://i.imgur.com/uWeax7p.jpg')";
-        } else if (textNode.id >= 14 && textNode.id <= 24) {
+        } else if (textNode.id >= 15 && textNode.id <= 24) {
             document.body.style.backgroundImage = "url('https://coolwallpapers.me/picsup/416886-landscape-wallpaper-free-desktop-wallpapers.gif')";
         } else if (textNode.id === 25) {
             document.body.style.backgroundImage = "url('https://i.imgur.com/n8JaEKC.jpg')";
@@ -78,8 +78,10 @@ function showTextNode(textIndex) {
     }
     background();
 
-    function audioControl() { //This function controls the character voice dialogues as well as the background music
-        if (textNode.id === 3) {
+    function audioControl() { //This function controls the character voice dialogues as well as the background music transitions
+        if (textNode.id === 0) {
+        // audioBackgroundSliceOfLife.play();
+        } else if (textNode.id === 3) {
             audioBackgroundSliceOfLife.pause();
             audioMagicalTransition.play();
         } else if (textNode.id === 8) {
@@ -89,21 +91,34 @@ function showTextNode(textIndex) {
             hellaviaVoice1.play();
         } else if (textNode.id === 11) {
             hellaviaVoice2.play();
-        } else if (textNode.id === 18) {
+        } else if (textNode.id === 12) {
+            hellaviaVoice2.pause();
+            hellaviaVoice3.play();
+            setTimeout(() => {
+               hellaviaVoice5.play();
+            }, 3000);
+        } else if (textNode.id === 13) {
+            hellaviaVoice3.pause();
+            hellaviaVoice5.pause();
+            hellaviaVoice4.play();
+        } else if (textNode.id === 16) {
+            audioBackgroundBongos.pause();
             audioBackgroundBarBrawl.volume = 0.7;
             audioBackgroundBarBrawl.play();
+        } else if (textNode.id === 25) {
+            audioBackgroundBarBrawl.pause();
+            audioBackgroundInventingFlight.volume = 0.5;
+            audioBackgroundInventingFlight.play();
         }
     }
     audioControl();
 
     function character() { //This function controls which sprite is to be shown at what time
-        if (textNode.id === 8) {
-            hellaviaSprite.src = "https://i.imgur.com/D31rZSW.png?1";
-        }
-        if (textNode.id >= 9 && textNode.id <= 10) {
-            hellaviaSprite.src = "https://i.imgur.com/xUZ8qt3.png";
+        if (textNode.id === 8) {hellaviaSprite.src = "https://i.imgur.com/D31rZSW.png?1";}
+        if (textNode.id >= 9 && textNode.id <= 10) {hellaviaSprite.src = "https://i.imgur.com/xUZ8qt3.png";}
+        if (textNode.id >= 13 && textNode.id <= 14) {hellaviaSprite.src = "https://i.imgur.com/ufufmZS.png?1";}
+        if (textNode.id === 15) {hellaviaSprite.src = "https://i.imgur.com/wpJXGu9.png?1"}
 
-        }
     }
     character();
     console.log(textIndex, 'textIndex')
@@ -145,4 +160,4 @@ function selectChoice(choices) {
     showTextNode(nextTextNodeId);
 };
 
-start();
+// start();
