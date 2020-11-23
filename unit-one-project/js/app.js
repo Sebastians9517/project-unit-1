@@ -63,6 +63,8 @@ function start() {
 
 function showTextNode(textIndex) {
     const textNode = textNodes.find(textNode => textNode.id === textIndex); //Here you assign the text of the proper textNode.id in the textNodes array to the textNode variable in order to display it on the screen
+    console.log(textNode.id, 'textNode id')
+    textElement.innerText = textNode.text; //Here is where you display the text that was passed on from the corresponding id in the textNodes array
 
     function background() { //This function changes the background in accordance with the current flow of the game text
         if (textNode.id <= 1) {
@@ -81,14 +83,14 @@ function showTextNode(textIndex) {
 
     function audioControl() { //This function controls the character voice dialogues as well as the background music transitions
         if (textNode.id === 0) {
-            audioBackgroundSliceOfLife.play();
+            // audioBackgroundSliceOfLife.play();
         } else if (textNode.id === 3) {
-            audioBackgroundSliceOfLife.pause();
-            audioMagicalTransition.play();
+            // audioBackgroundSliceOfLife.pause();
+            // audioMagicalTransition.play();
         } else if (textNode.id === 8) {
             audioMagicalTransition.pause();
-            audioBackgroundBongos.volume = 0.5;
-            audioBackgroundBongos.play();
+            // audioBackgroundBongos.volume = 0.5;
+            // audioBackgroundBongos.play();
             hellaviaVoice1.play();
         } else if (textNode.id === 11) {
             hellaviaVoice2.play();
@@ -102,9 +104,9 @@ function showTextNode(textIndex) {
             hellaviaVoice3.pause();
             hellaviaVoice5.pause();
             hellaviaVoice4.play();
-            setTimeout(() => {
+            // setTimeout(() => {
 
-            }, 50000);
+            // }, 50000);
         } else if (textNode.id === 16) {
             audioBackgroundBongos.pause();
             audioBackgroundBarBrawl.volume = 0.7;
@@ -125,9 +127,8 @@ function showTextNode(textIndex) {
 
     }
     character();
-    console.log(textIndex, 'textIndex')
+    // console.log(textIndex, 'textIndex')
 
-    textElement.innerText = textNode.text; //Here is where you display the text that was passed on from the corresponding id in the textNodes array
     while (choiceButtons.firstChild) { //This loop is to remove buttons that will not be available during certain portions of the game due to a varying number of selectable choices
         choiceButtons.removeChild(choiceButtons.firstChild);
     };
