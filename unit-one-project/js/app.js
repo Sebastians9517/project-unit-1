@@ -57,7 +57,7 @@ let state = {};
 // Defining functions //
 function start() {
     state;
-    showTextNode(0);
+    showTextNode(-1);
 };
 
 
@@ -178,4 +178,6 @@ function closeFullscreen() {
       document.msExitFullscreen();
     }
 }
+
+
 start();

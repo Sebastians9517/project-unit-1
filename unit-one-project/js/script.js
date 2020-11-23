@@ -1,6 +1,16 @@
 
 const textNodes =  [
     {
+        id: -1,
+        text: "Welcome to the library, please keep noise to a minimum.",
+        choices: [
+            {
+                text: "Enter",
+                nextText: 0
+            }
+        ]
+    },
+    {
         id: 0, //Prologue
         text: "Being a programmer with a reading addiction sometimes can be troublesome. \n After a long week of not leaving your apartment in order to meet a project deadline (otherwise your boss, The Manliest Shahzad Stinson, will get mad at you) you decide to visit your local library to unwind and release some of your stress by simple relaxing with a good book and a warm cup of coffee.",
         choices: [
