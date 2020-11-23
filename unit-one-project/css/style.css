@@ -18,6 +18,7 @@ body {
     background-size: cover;
     -webkit-transition: background-image 0.2s ease-in-out;
     transition: background-image 0.2s ease-in-out;
+    cursor: url('https://i.imgur.com/VKNnaaw.png'), auto;
     /* background-image: url(https://coolwallpapers.me/picsup/416886-landscape-wallpaper-free-desktop-wallpapers.gif); */
 }
 
@@ -39,22 +40,23 @@ body {
     justify-content: center;
     align-content: center;
     grid-template-columns: repeat(2, auto);
-    gap: 10px;
+    gap: 30px;
     margin-top: 20px;
     margin-left: 20px;
     opacity: 1;
 }
 
 .button {
-    background-image: url(https://i.imgur.com/Wrudj45.png);
+    background-image: url('https://i.imgur.com/Wrudj45.png');
+    background-size: cover;
     background-color: rgb(89, 165, 212);
     border: 1px solid blue;
     border-radius: 4px;
     padding: 5px 10px;
     color: rgb(43, 10, 10);
-    /* position: relative;
-    z-index: 10; */
-    /* outline: none; */
+    position: relative;
+    z-index: 10;
+    outline: none;
 }
 
 .button:hover {
@@ -71,9 +73,22 @@ body {
     white-space: wrap;
     overflow: hidden;
     font-family: 'Berkshire Swash', cursive;
-    color: rgb(255, 255, 255);
+    color: rgb(107, 228, 250);
     font-size: 30px;
-    text-shadow: rgb(43, 10, 10);
+    text-shadow: -1px 0 black, 0 5px black, 1px 0 black, 0 -1px black;
+    animation: an 1s ease-out 1 both;
+    display: inline-block;
+}
+
+@keyframes an{
+    from{
+        opacity: 0;
+        transform: perspective(500px) translate3d(-35px, -40px, -150px) rotate3d(1, -1, 0, 35deg);
+    }
+    to{
+        opacity: 1;
+        transform: perspective(500px) translate3d(0, 0, 0);
+    }
 }
 
 @keyframes typing {

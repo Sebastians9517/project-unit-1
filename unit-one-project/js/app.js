@@ -46,7 +46,7 @@ const hellaviaVoice36 = new Audio('https://www.mboxdrive.com/look%20i%20dont%20b
 const hellaviaVoice37 = new Audio('https://www.mboxdrive.com/okay%20then%20but%20would%20you%20at%20least%20stay%20for%20a%20day.mp3'); //okay then, but would you at least stay for a day
 const hellaviaVoice38 = new Audio('https://www.mboxdrive.com/lets%20at%20least%20have%20you%20try%20one%20of%20our%20drinks.mp3'); //let's at least have you try one of our drinks
 const hellaviaVoice39 = new Audio('https://www.mboxdrive.com/maybe%20i%20treated%20you%20too%20harshly.mp3'); //maybe I treated you too harshly
-const hellaviaVoice40 = new Audio('https://www.mboxdrive.com/well%20goodbye%20thanks%20for%20being%20summoned%20here.mp3'); //well, bye, thanks for 
+const hellaviaVoice40 = new Audio('https://www.mboxdrive.com/well%20goodbye%20thanks%20for%20being%20summoned%20here.mp3'); //well, bye, thanks for
 
 
 // Defining variables //
@@ -59,15 +59,15 @@ let state = {
 
 // Defining functions //
 function start() {
-    // state;
-    // audioBackgroundSliceOfLife.play();
-    showTextNode(29);
+    state;
+    audioBackgroundSliceOfLife.play();
+    showTextNode(0);
 };
 
 
 function showTextNode(textIndex) {
     const textNode = textNodes.find(textNode => textNode.id === textIndex); //Here you assign the text of the proper textNode.id in the textNodes array to the textNode variable in order to display it on the screen
-    console.log(textNode.id, 'od')
+
     function background() { //This function changes the background in accordance with the current flow of the game text
         if (textNode.id <= 1) {
             document.body.style.backgroundImage = "url('https://zonacarlos.files.wordpress.com/2016/02/the_library_of_babel_by_owen_c-d3gvei3.jpg')";
@@ -76,39 +76,40 @@ function showTextNode(textIndex) {
         } else if (textNode.id >= 14 && textNode.id <= 24) {
             document.body.style.backgroundImage = "url('https://coolwallpapers.me/picsup/416886-landscape-wallpaper-free-desktop-wallpapers.gif')";
         } else if (textNode.id === 25) {
-            document.body.style.backgroundImage = "url('https://i.imgur.com/NaT3XWh.jpg')";
+            document.body.style.backgroundImage = "url('https://i.imgur.com/n8JaEKC.jpg')";
+        } else if (textNode.id >= 26 && textNode.id <= 42) {
+
         }
     }
     background();
 
-    function voiceoverDialogues() { //This function controls the character voice dialogues as well as the background music
-        if (textNode.id === 8) {
-            audioMagicalTransition.volume = 0.5;
+    function audioControl() { //This function controls the character voice dialogues as well as the background music
+        if (textNode.id === 3) {
+            audioBackgroundSliceOfLife.pause();
+            audioMagicalTransition.play();
+        } else if (textNode.id === 8) {
+            audioMagicalTransition.pause();
+            audioBackgroundBongos.volume = 0.5;
+            audioBackgroundBongos.play();
             hellaviaVoice1.play();
         } else if (textNode.id === 11) {
-            audioBackgroundBongos.volume = 0.5;
             hellaviaVoice2.play();
         } else if (textNode.id === 18) {
             audioBackgroundBarBrawl.volume = 0.7;
             audioBackgroundBarBrawl.play();
         }
     }
-    voiceoverDialogues();
+    audioControl();
 
     function character() { //This function controls which sprite is to be shown at what time
-        if (textNode.id >= 3 && textNode.id <= 7) {
-           audioBackgroundSliceOfLife.pause();
-           audioMagicalTransition.play();
-        }
         if (textNode.id === 8) {
             hellaviaHappy.src = "https://i.imgur.com/D31rZSW.png?1";
             hellaviaNormal.style.display = "none";
             // audioBackgroundBongos.pause();
         }
         if (textNode.id >= 9 && textNode.id <= 10) {
-            hellaviaVoice1.pause();
-            hellaviaHappy.style.display = "none";
             hellaviaNormal.src = "https://i.imgur.com/xUZ8qt3.png";
+            hellaviaHappy.style.display = "none";
         }
     }
     character();
@@ -150,6 +151,5 @@ function selectChoice(choices) {
     state = Object.assign(state, choices.setState);
     showTextNode(nextTextNodeId);
 };
-
 
 start();

@@ -24,7 +24,7 @@ const textNodes =  [
     },
     {
         id: 2,
-        text: "As you are browsing on the bottom shelf, a strange looking book falls right next to you, barely missing your head. With a relieved sigh, you were about to put the thick book back in its place when you read the title: 'The Enchanted Book'. ",
+        text: "As you are browsing on the bottom shelf, a strange looking book falls right next to you, barely missing your head. With a relieved sigh, you were about to put the thick book back in its place when you read the title: 'Codex Quizaliztli'. ",
         choices: [
             {
                 text: "Have a peek in the book.",
@@ -67,7 +67,7 @@ const textNodes =  [
     },
     {
         id: 7,
-        text: "Hellavia was finally ready with her spell, magic candles lit on the floor tangential to the summoning circle, oil extracted from an ancient and powerful dragon burning with a purple flame in the middle of the it. She begins her incantation...",
+        text: "Hellavia was finally ready with her spell, magic candles lit on the floor tangential to the summoning circle, oil extracted from an ancient and powerful dragon burning with a purple flame in the middle of it. She begins her incantation...",
         choices: [
             {
                 text: "While you read you start to feel increasingly dizzy...",
@@ -291,7 +291,7 @@ const textNodes =  [
     },
     {
         id: 25,
-        text: "You finally reached a cave where other rageddy, creepy looking human warlocks where doing their own things. They seemed to be surprised upon seeing you and Hellavia, but did nothing other than scrutinizing you with their gaze upon entering their field of view. Upon walking a little longer and crossing a pair of enormous doors, the two of you reached a grand amphitheater where old shadowy men formed a circle in high stone chairs. Candles and darkness decorated the whole place.",
+        text: "You finally reached a deeper section of the forest where other rageddy, creepy looking human warlocks where doing their own things. They seemed to be surprised upon seeing you and Hellavia, but did nothing other than scrutinizing you with their gaze upon entering their field of view. Upon walking a little longer and crossing a pair of enormous doors, the two of you reached a grand amphitheater where old shadowy men formed a circle in high stone chairs. Candles and darkness decorated the whole place.",
         choices: [
             {
                 text: "*whisper to yourself: this is kind of creepy*",
