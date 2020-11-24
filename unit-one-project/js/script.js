@@ -458,7 +458,7 @@ const textNodes =  [
     },
     {
         id: 41,
-        text: "Warlock Councilmen: \n 'We were discussing about your responses, young one, as well about your lack of magic, and having a completely different demeanor and aura than those of this world, we believe Hellavia’s claim.' \n -they look at her with a smile- \n 'Congratulations, Summoner Hellavia, you have earned this rank and its benefits. We know you will make us proud, now... you may do as you please with you... companion here. \n -She seemed shocked for a second, but then did her best to hide her joy and overconfidence.",
+        text: "Warlock Councilmen: \n 'We were discussing about your responses, young one, as well about your lack of magic, and having a completely different demeanor and aura than those of this world, we believe Hellavia’s claim.' \n -they look at her with a smile- \n 'Congratulations, Summoner Hellavia, you have earned this rank and its benefits. We know you will make us proud, now... you may do as you please with your... companion here. \n -She seemed shocked for a second, but then did her best to hide her joy and overconfidence.",
         choices: [
             {
                 text: "Continue listening",
@@ -471,7 +471,7 @@ const textNodes =  [
         text: "Hellavia: \n 'Yes, I knew you'd eventually realise how good I am! But, uhm, I mean... thank you, Council. I will not let you down.' \n -she quickly rushed to the exit while pushing you in front of her to move faster.",
         choices: [
             {
-                text: "You both leave the cave.",
+                text: "You both leave the building.",
                 nextText: 43
             }
         ]
