@@ -17,7 +17,7 @@ body {
     -o-background-size: cover;
     background-size: cover;
     -webkit-transition: background-image 0.2s ease-in-out;
-    transition: background-image 0.2s ease-in-out;
+    transition: background-image 0.5s ease-in-out;
     cursor: url('https://i.imgur.com/VKNnaaw.png'), auto;
     /* background-image: url(https://coolwallpapers.me/picsup/416886-landscape-wallpaper-free-desktop-wallpapers.gif); */
 }

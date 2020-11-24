@@ -68,21 +68,21 @@ function showTextNode(textIndex) {
 
     function background() { //This function changes the background in accordance with the current flow of the game text
         if (textNode.id <= 1) {
-            document.body.style.backgroundImage = "url('https://zonacarlos.files.wordpress.com/2016/02/the_library_of_babel_by_owen_c-d3gvei3.jpg')";
+            document.body.style.backgroundImage = "url('media/images/background/library-background.jpg')";
         } else if (textNode.id >= 8 && textNode.id <= 14) {
-            document.body.style.backgroundImage = "url('https://i.imgur.com/uWeax7p.jpg')";
+            document.body.style.backgroundImage = "url('media/images/background/forest-hut.jpg')";
         } else if (textNode.id >= 15 && textNode.id <= 24) {
-            document.body.style.backgroundImage = "url('https://coolwallpapers.me/picsup/416886-landscape-wallpaper-free-desktop-wallpapers.gif')";
+            document.body.style.backgroundImage = "url('media/images/background/forest-animated-cascade.gif')";
         } else if (textNode.id === 25) {
-            document.body.style.backgroundImage = "https://i.imgur.com/CoqP0oR.jpg?1')";
+            document.body.style.backgroundImage = "media/images/background/city-of-warlocks-entrance.jpg')";
         } else if (textNode.id >= 26 && textNode.id <= 42) {
-            document.body.style.backgroundImage = "url('https://i.imgur.com/9SpiN4n.jpg')";
+            document.body.style.backgroundImage = "url('media/images/background/city-of-warlocks.jpg')";
         } else if (textNode.id >= 43 && textNode.id <= 50) {
-            document.body.style.backgroundImage = "url('https://coolwallpapers.me/picsup/416886-landscape-wallpaper-free-desktop-wallpapers.gif')";
+            document.body.style.backgroundImage = "url('media/images/background/forest-animated-cascade.gif')";
         } else if (textNode.id >= 51 && textNode.id <= 53) {
-            document.body.style.backgroundImage = "url('https://i.imgur.com/uWeax7p.jpg')";
+            document.body.style.backgroundImage = "url('media/images/background/forest-hut.jpg')";
         } else if (textNode.id === 54) {
-            document.body.style.backgroundImage = "url('https://zonacarlos.files.wordpress.com/2016/02/the_library_of_babel_by_owen_c-d3gvei3.jpg')";
+            document.body.style.backgroundImage = "url('media/images/background/library-background.jpg')";
         }
     }
     background();
