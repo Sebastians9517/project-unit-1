@@ -12,7 +12,7 @@ const textNodes =  [
     },
     {
         id: 0, //Prologue
-        text: "Being a programmer with a reading addiction sometimes can be troublesome. \n After a long week of not leaving your apartment in order to meet a project deadline (otherwise your boss, The Manliest Shahzad Stinson, will get mad at you) you decide to visit your local library to unwind and release some of your stress by simple relaxing with a good book and a warm cup of coffee.",
+        text: "After a long week of not leaving your apartment in order to meet a project deadline (otherwise your boss, The Manliest Shahzad Stinson, will get mad at you) you decide to visit your local library to unwind and release some of your stress by simple relaxing with a good book and a warm cup of coffee.",
         choices: [
             {
                 text: "Start.",
@@ -158,7 +158,7 @@ const textNodes =  [
     },
     {
         id: 13,
-        text: "???: \n 'No but thank you? Nu-uh, that won't cut it. I said *get up*! \n -you immediately feel an imperative need of jump and stand straight- \n 'Good, I like obedient pets. Now follow me, don't make me command you again. This is the thing: to the Council of Warlocks you are the proof I need that there are other worlds, maybe even Universes, we can summon creatures from. You are in front of my hut in the middle of the Shadow Forest, the birthplace of magic in this world and where the Council of Warlocks reside. Now, *come with me*.' \n -You start following her without even wanting to-.",
+        text: "???: \n 'No but thank you? Nu-uh, that won't cut it. I said *get up*! \n -you immediately feel an imperative need to jump and stand straight- \n 'Good, I like obedient pets. Now follow me, don't make me command you again. This is the thing: to the Council of Warlocks you are the proof I need that there are other worlds, maybe even Universes, we can summon creatures from! You are in front of my hut in the middle of the Shadow Forest, the birthplace of magic in this world and where the Council of Warlocks reside. Now, *come with me*.' \n -You start following her without even wanting to-.",
         choices: [
             {
                 text: "Who are you? What do you want?",

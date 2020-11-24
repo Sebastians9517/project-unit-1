@@ -127,9 +127,31 @@ function showTextNode(textIndex) {
 
     function character() { //This function controls which sprite is to be shown at what time
         if (textNode.id === 8) {hellaviaSprite.src = "https://i.imgur.com/D31rZSW.png?1";}
-        if (textNode.id >= 9 && textNode.id <= 10) {hellaviaSprite.src = "https://i.imgur.com/xUZ8qt3.png";}
-        if (textNode.id >= 13 && textNode.id <= 14) {hellaviaSprite.src = "https://i.imgur.com/ufufmZS.png?1";}
-        if (textNode.id === 15) {hellaviaSprite.src = "https://i.imgur.com/wpJXGu9.png?1"}
+        else if (textNode.id >= 9 && textNode.id <= 10) {hellaviaSprite.src = "https://i.imgur.com/xUZ8qt3.png";}
+        else if (textNode.id >= 13 && textNode.id <= 14) {hellaviaSprite.src = "https://i.imgur.com/ufufmZS.png?1";}
+        else if (textNode.id === 15) {hellaviaSprite.src = "https://i.imgur.com/wpJXGu9.png?1";}
+        else if (textNode.id === 16) {hellaviaSprite.src = "https://i.imgur.com/xUZ8qt3.png";}
+        else if (textNode.id === 17) {hellaviaSprite.src = "https://i.imgur.com/wpJXGu9.png?1";}
+        else if (textNode.id === 18) {hellaviaSprite.src = "https://i.imgur.com/xUZ8qt3.png";}
+        else if (textNode.id === 22) {hellaviaSprite.src = "https://i.imgur.com/ufufmZS.png?1";}
+        else if (textNode.id === 24) {hellaviaSprite.src = "https://i.imgur.com/wpJXGu9.png?1";}
+        else if (textNode.id === 25) {hellaviaSprite.src = "https://i.imgur.com/xUZ8qt3.png";}
+        else if (textNode.id === 32) {hellaviaSprite.src = "https://i.imgur.com/RYQAOi3.png?1";}
+        else if (textNode.id === 33) {hellaviaSprite.src = "https://i.imgur.com/xUZ8qt3.png";}
+        else if (textNode.id === 36) {hellaviaSprite.src = "https://i.imgur.com/RYQAOi3.png?1";}
+        else if (textNode.id === 37) {hellaviaSprite.src = "https://i.imgur.com/ufufmZS.png?1";}
+        else if (textNode.id === 38) {hellaviaSprite.src = "https://i.imgur.com/xUZ8qt3.png";}
+        else if (textNode.id === 39) {hellaviaSprite.src = "https://i.imgur.com/wpJXGu9.png?1";}
+        else if (textNode.id === 40) {hellaviaSprite.src = "https://i.imgur.com/RYQAOi3.png?1";}
+        else if (textNode.id === 41) {hellaviaSprite.src = "https://i.imgur.com/wpJXGu9.png?1";}
+        else if (textNode.id === 42) {hellaviaSprite.src = "https://i.imgur.com/xUZ8qt3.png";}
+        else if (textNode.id === 43) {hellaviaSprite.src = "https://i.imgur.com/D31rZSW.png?1";}
+        else if (textNode.id === 44) {hellaviaSprite.src = "https://i.imgur.com/xUZ8qt3.png";}
+        else if (textNode.id === 46) {hellaviaSprite.src = "https://i.imgur.com/D31rZSW.png?1";}
+        else if (textNode.id === 47) {hellaviaSprite.src = "https://i.imgur.com/RYQAOi3.png?1"}
+        else if (textNode.id === 48) {hellaviaSprite.src = "https://i.imgur.com/xUZ8qt3.png";}
+        else if (textNode.id === 51) {hellaviaSprite.src = "https://i.imgur.com/RYQAOi3.png?1";}
+        else if (textNode.id === 53) {hellaviaSprite.src = "https://i.imgur.com/xUZ8qt3.png";}
 
     }
     character();

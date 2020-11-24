@@ -120,8 +120,9 @@ img {
     display: flex;
     justify-content: center;
     align-content: center;
+    max-height: 75%;
     position: absolute;
-    left: 1050px;
+    left: 70%;
     z-index: -10;
     /* background-image: url(https://i.imgur.com/xUZ8qt3.png); */
     /* height: 850px;
