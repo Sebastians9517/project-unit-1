@@ -70,6 +70,7 @@ This is a work in development, please let me know if you find any bugs or errors
 1. HTML
 2. CSS
 3. JavaScript
+![HTML CSS JAVASCRIPT LOGOS](https://fiverr-res.cloudinary.com/images/q_auto,f_auto/gigs/121054763/original/9b1469b99a559f6250bc38f8231d4a46f412b77a/fix-your-html-css-javascript-bugs.jpeg)
 
 
 #### Early wireframe
