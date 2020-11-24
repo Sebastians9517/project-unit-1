@@ -34,7 +34,7 @@ const textNodes =  [
     },
     {
         id: 2,
-        text: "As you are browsing on the bottom shelf, a strange looking book falls right next to you, barely missing your head. With a relieved sigh, you were about to put the thick book back in its place when you read the title: 'Codex Quizaliztli'. ",
+        text: "As you are browsing on the bottom shelf, a strange looking book falls right next to you, barely missing your head. With a relieved sigh, you were about to put the thick book back in its place when you read the title: 'Codex Quinotza'. ",
         choices: [
             {
                 text: "Have a peek in the book.",
@@ -249,7 +249,7 @@ const textNodes =  [
         text: "You sprinted as fast as you could, but not even two minutes later you realised you are lost and have no idea where to go. Suddenly, you forcibly started to walk in a certain direction, only to return to Hellavia. The attackers where all lying unconscious on the ground. \n Hellavia: \n 'Nice try my pet, I can respect those who attempt to fight against their fate.'",
         choices: [
             {
-                text: "Tsch, so close.",
+                text: "*think to yourself: Tsch, so close.*",
                 // interest: 0,
                 nextText: 23
             }
@@ -260,7 +260,7 @@ const textNodes =  [
         text: "You try to knock the short strange girl down, but you realized you can't move against her, your body simply refuses to. \n Hellavia: \n 'I don't appreciate being stabbed in the back, my pet...' \n -She looks at you slightly disappointed. Then she quickly waves her staff around and in a mere moment all the attackers fell unconscious to the ground.",
         choices: [
             {
-                text: "Tsch, so close.",
+                text: "*think to yourself: Tsch, so close.*",
                 // interest: 0,
                 nextText: 24
             }
@@ -301,10 +301,10 @@ const textNodes =  [
     },
     {
         id: 25,
-        text: "You finally reached a deeper section of the forest where other rageddy, creepy looking human warlocks where doing their own things. They seemed to be surprised upon seeing you and Hellavia, but did nothing other than scrutinizing you with their gaze upon entering their field of view. Upon walking a little longer and crossing a pair of enormous doors, the two of you reached a grand amphitheater where old shadowy men formed a circle in high stone chairs. Candles and darkness decorated the whole place.",
+        text: "You finally reached a deeper section of the forest where other human or human looking warlocks where doing their own things. They seemed to be surprised upon seeing you and Hellavia, but did nothing other than scrutinizing you with their gaze upon entering their field of view. Upon walking a little longer and crossing a pair of enormous doors, the two of you reached a grand amphitheater where old shadowy men formed a circle in high stone chairs. Candles and darkness decorated the whole place.",
         choices: [
             {
-                text: "*whisper to yourself: this is kind of creepy*",
+                text: "*think to yourself: this is amazing*",
                 // interest: 0,
                 nextText: 26
             }
@@ -383,7 +383,7 @@ const textNodes =  [
     },
     {
         id: 31,
-        text: "Warlock Councilmen: \n 'Hmm, memory loss wouldn’t be anything new for those with little to no magic. If I may, my friend... \n -another one speaks up- \n 'What kingdom are you from?'",
+        text: "Warlock Councilmen: \n 'Hmm, memory loss wouldn’t be anything new for those with little to no magic. If I may, young one... \n -another one speaks up- \n 'What kingdom are you from?'",
         choices: [
             {
                 text: "You tell them about your homeworld.",

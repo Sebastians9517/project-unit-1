@@ -8,6 +8,7 @@ const audioBackgroundBarBrawl = new Audio('https://freepd.com/music/Bar%20Brawl.
 const audioMagicalTransition = new Audio('https://www.mboxdrive.com/Magical%20Transition.mp3');
 const audioBackgroundSliceOfLife = new Audio('https://www.mboxdrive.com/Slice%20of%20Life.mp3');
 const audioBackgroundInventingFlight = new Audio('https://freepd.com/music/Inventing%20Flight.mp3');
+const audioMagicalTheme = new Audio('https://www.mboxdrive.com/Magical%20Theme.mp3');
 const hellaviaVoice1 = new Audio('https://www.mboxdrive.com/Ha%20I%20am%20the%20best.mp3'); //Ha! I'm the best
 const hellaviaVoice2 = new Audio('https://www.mboxdrive.com/okay%20good%20you%20are%20corpo.mp3'); //Okay good corpo and real
 const hellaviaVoice3 = new Audio('https://www.mboxdrive.com/okay%20we%20do%20speak%20the%20same%20language.mp3'); //Okay, we do speak the same language
@@ -58,7 +59,7 @@ let state = {};
 // Defining functions //
 function start() {
     state;
-    showTextNode(18);
+    showTextNode(35);
 };
 
 
@@ -139,10 +140,23 @@ function showTextNode(textIndex) {
             }, 300);
         } else if (textNode.id === 22) {
             hellaviaVoice12.play();
+        } else if (textNode.id === 23) {
+            hellaviaVoice13.play();
+        } else if (textNode.id === 24) {
+            hellaviaVoice14.play();
         } else if (textNode.id === 25) {
             audioBackgroundBarBrawl.pause();
             audioBackgroundInventingFlight.volume = 0.5;
             audioBackgroundInventingFlight.play();
+        } else if (textNode.id === 26) {
+            hellaviaVoice15.play();
+            setTimeout(() => {
+                hellaviaVoice16.play();
+            }, 3400);
+        } else if (textNode.id === 27) {
+            audioMagicalTheme.play();
+        } else if (textNode.id === 37) {
+            hellaviaVoice17.play();
         }
     }
     audioControl();
