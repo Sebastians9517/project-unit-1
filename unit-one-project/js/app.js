@@ -59,7 +59,7 @@ let state = {};
 // Defining functions //
 function start() {
     state;
-    showTextNode(35);
+    showTextNode(-1);
 };
 
 
@@ -157,6 +157,62 @@ function showTextNode(textIndex) {
             audioMagicalTheme.play();
         } else if (textNode.id === 37) {
             hellaviaVoice17.play();
+        } else if (textNode.id === 38) {
+            hellaviaVoice18.play();
+            setTimeout(() => {
+                hellaviaVoice19.play();
+            }, 5500);
+        } else if (textNode.id === 39) {
+            hellaviaVoice20.play();
+            setTimeout(() => {
+                hellaviaVoice21.play();
+            }, 1300);
+        } else if (textNode.id === 40) {
+            hellaviaVoice22.play();
+        } else if (textNode.id === 42) {
+            hellaviaVoice23.play();
+        } else if (textNode.id === 43) {
+            hellaviaVoice24.play();
+            setTimeout(() => {
+                hellaviaVoice25.play();
+            }, 1500);
+            setTimeout(() => {
+                hellaviaVoice26.play();
+            }, 4800);
+        } else if (textNode.id === 44) {
+            hellaviaVoice27.play();
+        } else if (textNode.id === 45) {
+            hellaviaVoice28.play();
+        } else if (textNode.id === 46) {
+            hellaviaVoice29.play();
+            setTimeout(() => {
+                hellaviaVoice30.play();
+            }, 4300);
+        } else if (textNode.id === 47) {
+            hellaviaVoice31.play();
+            setTimeout(() => {
+                hellaviaVoice37.play();
+            }, 4200);
+        } else if (textNode.id === 48) {
+            hellaviaVoice32.play();
+        } else if (textNode.id === 49) {
+            hellaviaVoice33.play();
+            setTimeout(() => {
+                hellaviaVoice34.play();
+            }, 3200);
+        } else if (textNode.id === 50) {
+            hellaviaVoice35.play();
+            setTimeout(() => {
+                hellaviaVoice38.play();
+            }, 2500);
+        } else if (textNode.id === 51) {
+            hellaviaVoice36.play();
+        } else if (textNode.id === 52) {
+            hellaviaVoice39.play();
+        } else if (textNode.id === 53) {
+            hellaviaVoice40.play();
+        } else if (textNode.id === 54) {
+            audioBackgroundSliceOfLife.play();
         }
     }
     audioControl();
@@ -191,7 +247,6 @@ function showTextNode(textIndex) {
 
     }
     character();
-    // console.log(textIndex, 'textIndex')
 
     while (choiceButtons.firstChild) { //This loop is to remove buttons that will not be available during certain portions of the game due to a varying number of selectable choices
         choiceButtons.removeChild(choiceButtons.firstChild);
