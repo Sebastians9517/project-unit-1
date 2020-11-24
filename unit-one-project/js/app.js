@@ -83,14 +83,14 @@ function showTextNode(textIndex) {
 
     function audioControl() { //This function controls the character voice dialogues as well as the background music transitions
         if (textNode.id === 0) {
-            // audioBackgroundSliceOfLife.play();
+            audioBackgroundSliceOfLife.play();
         } else if (textNode.id === 3) {
-            // audioBackgroundSliceOfLife.pause();
-            // audioMagicalTransition.play();
+            audioBackgroundSliceOfLife.pause();
+            audioMagicalTransition.play();
         } else if (textNode.id === 8) {
             audioMagicalTransition.pause();
-            // audioBackgroundBongos.volume = 0.5;
-            // audioBackgroundBongos.play();
+            audioBackgroundBongos.volume = 0.5;
+            audioBackgroundBongos.play();
             hellaviaVoice1.play();
         } else if (textNode.id === 11) {
             hellaviaVoice2.play();
@@ -136,8 +136,8 @@ function showTextNode(textIndex) {
         if (showOption(choices)) {
             const button = document.createElement('button');
             button.innerText = choices.text; // Displaying corresponding choice text into each option button
-            button.classList.add('button');
-            button.classList = addEventListener('click', () => selectChoice(choices)); //This is what allows the game to determine which option is clicked and redirect the game accordingly
+            // button.classList.add('button');
+            button.addEventListener('click', () => selectChoice(choices)); //This is what allows the game to determine which option is clicked and redirect the game accordingly
 
             // console.log(button.classList, 'button')
 
