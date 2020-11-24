@@ -7,6 +7,12 @@ _náhuatl_ **quinotza**: "summon"
 The Codex Quinotza is about a series of short stories, where the player comes across a book with countless chapters, each one a different short story. The stories relate to each other very little, if at all, therefore the player can choose which to read first.
 Unbeknown to them, the moment they begin reading the book, they are drawn into that world, not just being their imagination, but physically pulled into whichever chapter they read. They become the companion of the character the story is about, and must see it through until the end. Depending on their choices, the player may choose to befriend, dislike or even fall in love with the player through their adventure, you could also find a premature dead if you are not careful with your words, nothing important.
 
+
+[Play the alpha version here!](https://codexquinotza.surge.sh/)
+
+This is a work in development, please let me know if you find any bugs or errors that need to be solved as well as any fun ideas or characters that you would like to see implemented!
+
+
 ##### Screenshots
 
 ![in-game screenshot 1](https://i.imgur.com/ZQ3qRoW.png)
@@ -15,10 +21,37 @@ Unbeknown to them, the moment they begin reading the book, they are drawn into t
 
 
 #### Other resources
-1. Story written by the awesome: [palvk_roquen](https://www.fiverr.com/palvk_roquen) on Fiverr.
-2. Character design by the amazing: [Random_peach](https://www.fiverr.com/random_peach)
+* Story written by the awesome: [palvk_roquen](https://www.fiverr.com/palvk_roquen) on Fiverr.
+* Character design by the amazing: [Random_peach](https://www.fiverr.com/random_peach) on Fiverr.
+* Voiceover by the wonderful: [prippyteeva](https://www.fiverr.com/prippyteeva) on Fiverr.
+* Background music from: [FreePD Creative Commons](https://freepd.com/).
+* Background images from different copyright free sites.
 
-##### Basic pseudo-code
+
+#### Look forward to these next updates!
+
+**New characters!**
+
+* Nihliana, the Ancient.
+
+![Nihiliana sprite 1](https://i.imgur.com/v6Z1hKV.png?1)
+
+![Nihiliana sprite 2](https://i.imgur.com/0lgQUIc.png?1)
+
+
+* Shaileen, the Protector.
+
+![Shaileen sprite 1](https://i.imgur.com/DFHtiDn.png?1)
+
+![Shaileen sprite 2](https://i.imgur.com/uOKHk6A.png?1)
+
+
+* Mobile responsiveness
+
+![Mobile game wireframe](https://i.imgur.com/CkkFeaY.png)
+
+
+##### Pseudo-code
 
 1. Create HTML with a div to contain all the text, questions and options and another div to contain all the different option buttons.
 2. Give initial basic styling to the body and the containers.
@@ -31,11 +64,13 @@ Unbeknown to them, the moment they begin reading the book, they are drawn into t
 9. Define a function to react according to the option the player choose including a restart function.
 10. Add a function to control de flow of the background, music and voiceovers.
 
+
 ##### Languages used
 
 1. HTML
 2. CSS
 3. JavaScript
+
 
 ##### Early wireframe
 ![Early wireframe design](https://i.imgur.com/LRD4XiD.png)
