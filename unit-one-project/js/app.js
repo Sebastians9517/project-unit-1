@@ -77,6 +77,12 @@ function showTextNode(textIndex) {
             document.body.style.backgroundImage = "url('https://i.imgur.com/n8JaEKC.jpg')";
         } else if (textNode.id >= 26 && textNode.id <= 42) {
             document.body.style.backgroundImage = "url('https://i.imgur.com/9SpiN4n.jpg')";
+        } else if (textNode.id >= 43 && textNode.id <= 50) {
+            document.body.style.backgroundImage = "url('https://coolwallpapers.me/picsup/416886-landscape-wallpaper-free-desktop-wallpapers.gif')";
+        } else if (textNode.id >= 51 && textNode.id <= 53) {
+            document.body.style.backgroundImage = "url('https://i.imgur.com/uWeax7p.jpg')";
+        } else if (textNode.id === 54) {
+            document.body.style.backgroundImage = "url('https://zonacarlos.files.wordpress.com/2016/02/the_library_of_babel_by_owen_c-d3gvei3.jpg')";
         }
     }
     background();
