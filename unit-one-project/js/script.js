@@ -22,7 +22,7 @@ const textNodes =  [
     },
     {
         id: 1,
-        text: "You are scavenging through the freshly arrived collection of materials, the attendant lets you know the place is closing soon, so you quickly pick up your favourites, plus a few new ones to devour on your upcoming days off.",
+        text: "You are scavenging through the freshly arrived collection of materials, when the attendant lets you know the place is closing soon, so you quickly pick up your favourites, plus a few new ones to devour on your upcoming days off.",
         choices: [
             {
                 text: "Continue looking around.",

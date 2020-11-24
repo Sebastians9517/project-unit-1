@@ -90,14 +90,16 @@ function showTextNode(textIndex) {
 
     function audioControl() { //This function controls the character voice dialogues as well as the background music transitions
         if (textNode.id === 0) {
+            audioBackgroundSliceOfLife.volume = 0.3;
             audioBackgroundSliceOfLife.play();
         } else if (textNode.id === 3) {
             audioBackgroundSliceOfLife.pause();
+            audioMagicalTransition.volume = 0.3;
             audioMagicalTransition.play();
         } else if (textNode.id === 8) {
             audioMagicalTransition.pause();
             teleportationAudioEffect.play();
-            audioBackgroundBongos.volume = 0.5;
+            audioBackgroundBongos.volume = 0.3;
             audioBackgroundBongos.play();
             hellaviaVoice1.play();
         } else if (textNode.id === 11) {
@@ -121,7 +123,7 @@ function showTextNode(textIndex) {
             hellaviaVoice7.play();
         } else if (textNode.id === 16) {
             audioBackgroundBongos.pause();
-            audioBackgroundBarBrawl.volume = 0.7;
+            audioBackgroundBarBrawl.volume = 0.3;
             audioBackgroundBarBrawl.play();
         } else if (textNode.id === 17) {
             hellaviaVoice8.play();
@@ -145,7 +147,7 @@ function showTextNode(textIndex) {
             hellaviaVoice14.play();
         } else if (textNode.id === 25) {
             audioBackgroundBarBrawl.pause();
-            audioBackgroundInventingFlight.volume = 0.5;
+            audioBackgroundInventingFlight.volume = 0.3;
             audioBackgroundInventingFlight.play();
         } else if (textNode.id === 26) {
             hellaviaVoice15.play();
@@ -211,6 +213,7 @@ function showTextNode(textIndex) {
         } else if (textNode.id === 53) {
             hellaviaVoice40.play();
         } else if (textNode.id === 54) {
+            audioBackgroundSliceOfLife.volume = 0.3;
             audioBackgroundSliceOfLife.play();
         }
     }
