@@ -158,7 +158,7 @@ const textNodes =  [
     },
     {
         id: 13,
-        text: "???: \n 'No but thank you? Nu-uh, that won't cut it. I said *get up*! \n -you immediately feel an imperative need to jump and stand straight- \n 'Good, I like obedient pets. Now follow me, don't make me command you again. This is the thing: to the Council of Warlocks you are the proof I need that there are other worlds, maybe even Universes, we can summon creatures from! You are in front of my hut in the middle of the Shadow Forest, the birthplace of magic in this world and where the Council of Warlocks reside. Now, *come with me*.' \n -You start following her without even wanting to-.",
+        text: "???: \n 'No but thank you? Nu-uh, that won't cut it. I said *get up*! \n -you immediately feel an imperative need to jump and stand straight- \n 'Good, I like obedient pets. Now *follow me*, don't make me command you again. \n -You start following her without even wanting to-.",
         choices: [
             {
                 text: "Who are you? What do you want?",

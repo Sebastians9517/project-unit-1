@@ -14,6 +14,7 @@ const hellaviaVoice3 = new Audio('https://www.mboxdrive.com/okay%20we%20do%20spe
 const hellaviaVoice4 = new Audio('https://www.mboxdrive.com/no%20thank%20you%20nu-uh%20that%20won_t%20cut%20it.mp3'); //No thank you? Nu-uh
 const hellaviaVoice5 = new Audio('https://www.mboxdrive.com/okay%20you%20are%20the%20proof%20I%20need.mp3'); //You are the proof I need
 const hellaviaVoice6 = new Audio('https://www.mboxdrive.com/pick%20one%20question.mp3'); //Pick one question my pet
+const hellaviaVoice61 = new Audio('media/audio/Hellavia-Voice/good now follow me.mp3')
 const hellaviaVoice7 = new Audio('https://www.mboxdrive.com/hellavia%20your%20local%20supreme%20warlock.mp3'); //Hellavia, your local supreme warlock
 const hellaviaVoice8 = new Audio('https://www.mboxdrive.com/your%20moms%20been%20failling%20ever%20since%20you%20were%20born.mp3'); //You mom's been failing ever since you were born
 const hellaviaVoice9 = new Audio('https://www.mboxdrive.com/aw%20how%20cute.mp3'); //Aww how cute
@@ -57,7 +58,7 @@ let state = {};
 // Defining functions //
 function start() {
     state;
-    showTextNode(-1);
+    showTextNode(18);
 };
 
 
@@ -106,18 +107,38 @@ function showTextNode(textIndex) {
             hellaviaVoice3.play();
             setTimeout(() => {
                hellaviaVoice5.play();
-            }, 3000);
+            }, 3900);
         } else if (textNode.id === 13) {
             hellaviaVoice3.pause();
             hellaviaVoice5.pause();
             hellaviaVoice4.play();
             setTimeout(() => {
-
-            }, 50000);
+                hellaviaVoice61.play();
+            }, 6000);
+        } else if (textNode.id === 14) {
+            hellaviaVoice6.play();
+        } else if (textNode.id === 15) {
+            hellaviaVoice7.play();
         } else if (textNode.id === 16) {
             audioBackgroundBongos.pause();
             audioBackgroundBarBrawl.volume = 0.7;
             audioBackgroundBarBrawl.play();
+        } else if (textNode.id === 17) {
+            hellaviaVoice8.play();
+        } else if (textNode.id === 19) {
+            setTimeout(() => {
+                hellaviaVoice9.play();
+            }, 500);
+        } else if (textNode.id === 20) {
+            setTimeout(() => {
+                hellaviaVoice10.play();
+            }, 500);
+        } else if (textNode.id === 21) {
+            setTimeout(() => {
+                hellaviaVoice11.play();
+            }, 300);
+        } else if (textNode.id === 22) {
+            hellaviaVoice12.play();
         } else if (textNode.id === 25) {
             audioBackgroundBarBrawl.pause();
             audioBackgroundInventingFlight.volume = 0.5;
