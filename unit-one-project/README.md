@@ -2,7 +2,7 @@
 _latin_ **Codex**: "ancient text/book"
 _náhuatl_ **quinotza**: "summon"
 
-The Codex Quinotza is about a series of short stories, where the player comes across a book with countless chapters, each one a different short story. The stories relate to each other very little, if at all, therefore the player can choose which to read first.  
+The Codex Quinotza is about a series of short stories, where the player comes across a book with countless chapters, each one a different short story. The stories relate to each other very little, if at all, therefore the player can choose which to read first.
 Unbeknown to them, the moment they begin reading the book, they are drawn into that world, not just being their imagination, but physically pulled into whichever chapter they read. They become the companion of the character the story is about, and must see it through until the end. Depending on their choices, the player may choose to befriend, dislike or even fall in love with the player through their adventure, you could also find a premature dead if you are not careful with your words, nothing important.
 
 
@@ -21,7 +21,7 @@ This is a work in development, please let me know if you find any bugs or errors
 ### Other resources
 * Story written by the awesome: [palvk_roquen](https://www.fiverr.com/palvk_roquen) on Fiverr.
 * Character design by the amazing: [Random_peach](https://www.fiverr.com/random_peach) on Fiverr.
-* Voiceover by the wonderful: [prippyteeva](https://www.fiverr.com/prippyteeva) on Fiverr.
+* Hellavia voiceover by the wonderful: [prippyteeva](https://www.fiverr.com/prippyteeva) on Fiverr.
 * Background music from: [FreePD Creative Commons](https://freepd.com/).
 * Background images from different copyright free sites.
 
@@ -31,6 +31,7 @@ This is a work in development, please let me know if you find any bugs or errors
 **New characters!**
 
 * Nihliana, the Ancient.
+  * Voiced by the great: [khianni](https://www.fiverr.com/khianni) on Fiverr.
 
 ![Nihiliana sprite 1](https://i.imgur.com/v6Z1hKV.png?1)
 
@@ -38,6 +39,7 @@ This is a work in development, please let me know if you find any bugs or errors
 
 
 * Shaileen, the Protector.
+  * Voiced by the experienced: [dallynbrunck](https://www.fiverr.com/dallynbrunck) on Fiverr.
 
 ![Shaileen sprite 1](https://i.imgur.com/DFHtiDn.png?1)
 
