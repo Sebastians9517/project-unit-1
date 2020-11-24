@@ -1,8 +1,8 @@
-## Codex Quinotza
+# Codex Quinotza
 _latin_ **Codex**: "ancient text/book"
 _náhuatl_ **quinotza**: "summon"
 
-The Codex Quinotza is about a series of short stories, where the player comes across a book with countless chapters, each one a different short story. The stories relate to each other very little, if at all, therefore the player can choose which to read first.
+The Codex Quinotza is about a series of short stories, where the player comes across a book with countless chapters, each one a different short story. The stories relate to each other very little, if at all, therefore the player can choose which to read first.  
 Unbeknown to them, the moment they begin reading the book, they are drawn into that world, not just being their imagination, but physically pulled into whichever chapter they read. They become the companion of the character the story is about, and must see it through until the end. Depending on their choices, the player may choose to befriend, dislike or even fall in love with the player through their adventure, you could also find a premature dead if you are not careful with your words, nothing important.
 
 
