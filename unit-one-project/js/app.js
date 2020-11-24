@@ -48,7 +48,7 @@ const hellaviaVoice37 = new Audio('https://www.mboxdrive.com/okay%20then%20but%2
 const hellaviaVoice38 = new Audio('https://www.mboxdrive.com/lets%20at%20least%20have%20you%20try%20one%20of%20our%20drinks.mp3'); //let's at least have you try one of our drinks
 const hellaviaVoice39 = new Audio('https://www.mboxdrive.com/maybe%20i%20treated%20you%20too%20harshly.mp3'); //maybe I treated you too harshly
 const hellaviaVoice40 = new Audio('https://www.mboxdrive.com/well%20goodbye%20thanks%20for%20being%20summoned%20here.mp3'); //well, bye, thanks for
-
+const teleportationAudioEffect = new Audio('http://freesoundeffect.net/sites/default/files/casting-spell-06-sound-effect-29418946.mp3');
 
 // Defining variables //
 let state = {};
@@ -74,7 +74,7 @@ function showTextNode(textIndex) {
         } else if (textNode.id >= 15 && textNode.id <= 24) {
             document.body.style.backgroundImage = "url('https://coolwallpapers.me/picsup/416886-landscape-wallpaper-free-desktop-wallpapers.gif')";
         } else if (textNode.id === 25) {
-            document.body.style.backgroundImage = "url('https://i.imgur.com/n8JaEKC.jpg')";
+            document.body.style.backgroundImage = "https://i.imgur.com/CoqP0oR.jpg?1')";
         } else if (textNode.id >= 26 && textNode.id <= 42) {
             document.body.style.backgroundImage = "url('https://i.imgur.com/9SpiN4n.jpg')";
         } else if (textNode.id >= 43 && textNode.id <= 50) {
@@ -95,6 +95,7 @@ function showTextNode(textIndex) {
             audioMagicalTransition.play();
         } else if (textNode.id === 8) {
             audioMagicalTransition.pause();
+            teleportationAudioEffect.play();
             audioBackgroundBongos.volume = 0.5;
             audioBackgroundBongos.play();
             hellaviaVoice1.play();
@@ -110,9 +111,9 @@ function showTextNode(textIndex) {
             hellaviaVoice3.pause();
             hellaviaVoice5.pause();
             hellaviaVoice4.play();
-            // setTimeout(() => {
+            setTimeout(() => {
 
-            // }, 50000);
+            }, 50000);
         } else if (textNode.id === 16) {
             audioBackgroundBongos.pause();
             audioBackgroundBarBrawl.volume = 0.7;
