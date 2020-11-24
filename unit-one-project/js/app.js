@@ -65,7 +65,6 @@ function start() {
 
 function showTextNode(textIndex) {
     const textNode = textNodes.find(textNode => textNode.id === textIndex); //Here you assign the text of the proper textNode.id in the textNodes array to the textNode variable in order to display it on the screen
-    console.log(textNode.id, 'textNode id')
     textElement.innerText = textNode.text; //Here is where you display the text that was passed on from the corresponding id in the textNodes array
 
     function background() { //This function changes the background in accordance with the current flow of the game text

@@ -12,7 +12,7 @@ const textNodes =  [
     },
     {
         id: 0, //Prologue
-        text: "After a long week of not leaving your apartment in order to meet a project deadline (otherwise your boss, The Manliest Shahzad Stinson, will get mad at you) you decide to visit your local library to unwind and release some of your stress by simple relaxing with a good book and a warm cup of coffee.",
+        text: "After a long week of not leaving your apartment in order to meet a project deadline (otherwise your boss, The Manliest Shahzad Stinson, will get mad at you) you decide to visit your local library to unwind and release some of your stress by simply relaxing with a good book and a warm cup of coffee.",
         choices: [
             {
                 text: "Start.",

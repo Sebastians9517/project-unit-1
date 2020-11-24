@@ -21,7 +21,7 @@ This is a work in development, please let me know if you find any bugs or errors
 ### Other resources
 * Story written by the awesome: [palvk_roquen](https://www.fiverr.com/palvk_roquen) on Fiverr.
 * Character design by the amazing: [Random_peach](https://www.fiverr.com/random_peach) on Fiverr.
-* Hellavia voiceover by the wonderful: [prippyteeva](https://www.fiverr.com/prippyteeva) on Fiverr.
+* Hellavia voiceover by the wonderful: [PrippyTeeVA](https://www.fiverr.com/prippyteeva) on Fiverr.
 * Background music from: [FreePD Creative Commons](https://freepd.com/).
 * Background images from different copyright free sites.
 
