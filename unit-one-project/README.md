@@ -1,6 +1,4 @@
-# project-unit-1
-
-### Codex Quinotza
+## Codex Quinotza
 _latin_ **Codex**: "ancient text/book"
 _náhuatl_ **quinotza**: "summon"
 
@@ -13,14 +11,14 @@ Unbeknown to them, the moment they begin reading the book, they are drawn into t
 This is a work in development, please let me know if you find any bugs or errors that need to be solved as well as any fun ideas or characters that you would like to see implemented!
 
 
-##### Screenshots
+### Screenshots
 
 ![in-game screenshot 1](https://i.imgur.com/ZQ3qRoW.png)
 
 ![in-game screenshot 2](https://i.imgur.com/zLZ8lAU.png)
 
 
-#### Other resources
+### Other resources
 * Story written by the awesome: [palvk_roquen](https://www.fiverr.com/palvk_roquen) on Fiverr.
 * Character design by the amazing: [Random_peach](https://www.fiverr.com/random_peach) on Fiverr.
 * Voiceover by the wonderful: [prippyteeva](https://www.fiverr.com/prippyteeva) on Fiverr.
@@ -28,7 +26,7 @@ This is a work in development, please let me know if you find any bugs or errors
 * Background images from different copyright free sites.
 
 
-#### Look forward to these next updates!
+### Look forward to these next updates!
 
 **New characters!**
 
@@ -51,7 +49,7 @@ This is a work in development, please let me know if you find any bugs or errors
 ![Mobile game wireframe](https://i.imgur.com/CkkFeaY.png)
 
 
-##### Pseudo-code
+#### Pseudo-code
 
 1. Create HTML with a div to contain all the text, questions and options and another div to contain all the different option buttons.
 2. Give initial basic styling to the body and the containers.
@@ -65,15 +63,15 @@ This is a work in development, please let me know if you find any bugs or errors
 10. Add a function to control de flow of the background, music and voiceovers.
 
 
-##### Languages used
+#### Languages used
 
 1. HTML
 2. CSS
 3. JavaScript
 
 
-##### Early wireframe
+#### Early wireframe
 ![Early wireframe design](https://i.imgur.com/LRD4XiD.png)
 
-##### A few upgrades later
+#### A few upgrades later
 ![Upgraded wireframe](https://i.imgur.com/mSJxNpV.png)
