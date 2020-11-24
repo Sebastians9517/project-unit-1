@@ -14,7 +14,7 @@
 10. Add a function to control de flow of the background, music and voiceovers.
 
 ##### Early wireframe
-![Early wireframe design](https://whimsical.com/MonPjWTZ2uN97Xn9taTBuY)
+![Early wireframe design](https://i.imgur.com/LRD4XiD.png)
 
 
 ##### Languages used
