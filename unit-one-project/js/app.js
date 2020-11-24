@@ -98,6 +98,7 @@ function showTextNode(textIndex) {
             audioMagicalTransition.play();
         } else if (textNode.id === 8) {
             audioMagicalTransition.pause();
+            teleportationAudioEffect.volume = 0.3;
             teleportationAudioEffect.play();
             audioBackgroundBongos.volume = 0.3;
             audioBackgroundBongos.play();
@@ -123,7 +124,7 @@ function showTextNode(textIndex) {
             hellaviaVoice7.play();
         } else if (textNode.id === 16) {
             audioBackgroundBongos.pause();
-            audioBackgroundBarBrawl.volume = 0.3;
+            audioBackgroundBarBrawl.volume = 0.2;
             audioBackgroundBarBrawl.play();
         } else if (textNode.id === 17) {
             hellaviaVoice8.play();
